@@ -9,7 +9,8 @@ This is a collection of my data analysis and study projects that I have complete
 ## Case Studies
 
 ## Study Projects
-
+### freeCodeCamp
+#### Video Tutorials
 ## Certificates
 
 
