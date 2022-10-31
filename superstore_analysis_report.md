@@ -5,5 +5,6 @@ The data was borrowed from Tableau's collection of sample data. After downloadin
 - Relevant dates
 - Customers
 - Products
-- Sale Prices, Discounts and Profits.
+- Sale Prices, Discounts and Profits
+
 The *Returns* sheet includes a list of Order ID numbers. There is not a description describing what this information means, and I am not able to contact the person who provided the information, so I will assume this sheet provides a list of the orders which were returned to the superstore. The *People* sheet has four names, each of which is attributed to a region. I must assume that these are meant to be the names of people in charge of overseeing orders from each region.
