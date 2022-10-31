@@ -28,7 +28,16 @@ Before I could begin analyzing the data, I needed to determine what questions I 
 
 While there are many more questions that this data could be used to answer, I believe that answering these questions will provide valuable insight into areas where the company could improve or capitalize on certain situations.
 ## Preparing the Data
-Now that I know what I am looking for in the data, I can decide what data is necessary and what format it needs to be in. The data in the *Returns* sheet is valuable for answering the first question. However, I could instead use the information from the *Returns* sheet to create a column in the *Orders* sheet that describes which orders were returned, and then delete the *Returns* sheet. I did so using Excel's *COUNTIF* and *IF* functions. Now, a *Returned* column exists in the *Orders* sheet, showing *Yes* where an order was returned and *No* where it was not.
+Now that I know what I am looking for in the data, I can decide what data is necessary and what format it needs to be in. The data in the *Returns* sheet is valuable for answering the first question. However, I could instead use the information from the *Returns* sheet to create a column in the *Orders* sheet that describes which orders were returned, and then delete the *Returns* sheet. I did so using Excel's *COUNTIF* and *IF* functions. Now, a *Returned* column exists in the *Orders* sheet, showing *Yes* where an order was returned and *No* where it was not. Before I deleted the *Returns* sheet, I copied the *Returned* column and pasted it back in as the values only, rather than as a function. Then, I deleted the *Returns* sheet, and we now have the information on orders and returns on the same sheet.
+
+The data in the *People* sheets can be left in that sheet since I only used it for quick references when deciding what to do once we answer question 9. I needed the product ID's, categories, sub-categories, and names for our analysis, so these columns were kept as is. We also need the names and ID's of customers, but we did not need the segment information for each order, so I deleted the *Segment* column. In terms of the financial aspects of each order, we need the sale price, quantity, discount, and profit for each. 
+
+By creating a pivot table with the Countries as the rows, it becomes clear that each order is shipped within the United States. Knowing this, I deleted the *Country* column, since this information is already known for each order. Instead of having cities and states, separated, we can now combine the information into a single column, *City/State* using the *CONCATENATE* Excel function. The postal code did not seem relevant to my analysis, so I removed this column as well. The *Region* column was kept, since its information is relevant to answering question 9. My analysis does not rely on information regarding how the orders were shipped to the customers, so I deleted the *Ship Mode* column. Now, the geographical information for each order is prepared.
+
+Both the order date and the ship date are provided, but for my analysis, I used the order date to answer questions 14 and 15. I deleted the *Ship Date* column, because it is no longer relevant. The *Row ID* column is not useful for my analysis, so I deleted this column as well, but kept the *Order ID* column, as it describes which products were placed in the same order.
+
+By taking these steps, I made the data easier to understand and work with during the rest of my analysis.
+
 ## Cleaning the Data
 ## Analyzing the Data
 ## Visualizing the Data
