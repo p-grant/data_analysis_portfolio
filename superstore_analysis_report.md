@@ -28,7 +28,7 @@ Before I could begin analyzing the data, I needed to determine what questions I 
 
 While there are many more questions that this data could be used to answer, I believe that answering these questions will provide valuable insight into areas where the company could improve or capitalize on certain situations.
 ## Preparing the Data
-Now that I know what I am looking for in the data, I can decide what data is necessary and what format it needs to be in. The data in the *Returns* and *People* sheets is necessary for questions 1 and 9. 
+Now that I know what I am looking for in the data, I can decide what data is necessary and what format it needs to be in. The data in the *Returns* sheet is valuable for answering the first question. However, I could instead use the information from the *Returns* sheet to create a column in the *Orders* sheet that describes which orders were returned, and then delete the *Returns* sheet. I did so using Excel's *COUNTIF* and *IF* functions. Now, a *Returned* column exists in the *Orders* sheet, showing *Yes* where an order was returned and *No* where it was not.
 ## Cleaning the Data
 ## Analyzing the Data
 ## Visualizing the Data
