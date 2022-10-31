@@ -15,20 +15,20 @@ Before I could begin analyzing the data, I needed to determine what questions I 
 3. Do repeat customers recieve more frequent and/or larger discounts than single order customers?
 4. Do we make a larger profit on orders containing a larger number of items?
 5. Do we make a larger profit off of our more expensive products?
-6a. Which cities are many of our orders sent to? 
-  6b. What kinds of products are sent to which cities most frequently?
-7. Which cities do we make a largest profit from?
-8. Of the four regions, which makes the largest profit?
-9a. Which product categories are the most profitable? 
-  9b. Which products within each category are the most profitable?
-10a. Which products are ordered more frequently using discounts? 
-  10b. How large are the discounts on orders of certain products?
-10a. Has the superstore seen more orders in recent years? 
-  10b. Has the superstore seen more profit?
+6. Which cities are many of our orders sent to? 
+7 What kinds of products are sent to which cities most frequently?
+8. Which cities do we make a largest profit from?
+9. Of the four regions, which makes the largest profit?
+10. Which product categories are the most profitable? 
+11. Which products within each category are the most profitable?
+12. Which products are ordered more frequently using discounts? 
+13. How large are the discounts on orders of certain products?
+14. Has the superstore seen more orders in recent years? 
+15. Has the superstore seen more profit?
 
 While there are many more questions that this data could be used to answer, I believe that answering these questions will provide valuable insight into areas where the company could improve or capitalize on certain situations.
 ## Preparing the Data
-Now that I know what I am looking for in the data, I can decide what data is necessary and what format it needs to be in. The data in the *Returns* and *People* sheets is necessary for questions 1 and 8. 
+Now that I know what I am looking for in the data, I can decide what data is necessary and what format it needs to be in. The data in the *Returns* and *People* sheets is necessary for questions 1 and 9. 
 ## Cleaning the Data
 ## Analyzing the Data
 ## Visualizing the Data
