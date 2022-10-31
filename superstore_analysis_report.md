@@ -26,7 +26,7 @@ Before I could begin analyzing the data, I needed to determine what questions I 
 14. Has the superstore seen more orders in recent years? 
 15. Has the superstore seen more profit?
 
-While there are many more questions that this data could be used to answer, I believe that answering these questions will provide valuable insight into areas where the company could improve or capitalize on certain situations.
+While there are many more questions that this data could be used to answer, I believe that answering these questions will provide valuable insight into areas where the company could improve or capitalize on certain situations. Along with answering these questions, I will look for other valuable insights that this data can provide.
 ## Preparing the Data
 Now that I know what I am looking for in the data, I can decide what data is necessary and what format it needs to be in. The data in the *Returns* sheet is valuable for answering the first question. However, I could instead use the information from the *Returns* sheet to create a column in the *Orders* sheet that describes which orders were returned, and then delete the *Returns* sheet. I did so using Excel's *COUNTIF* and *IF* functions. Now, a *Returned* column exists in the *Orders* sheet, showing *Yes* where an order was returned and *No* where it was not. Before I deleted the *Returns* sheet, I copied the *Returned* column and pasted it back in as the values only, rather than as a function. Then, I deleted the *Returns* sheet, and we now have the information on orders and returns on the same sheet.
 
@@ -37,7 +37,21 @@ By creating a pivot table with the Countries as the rows, it becomes clear that 
 Both the order date and the ship date are provided, but for my analysis, I used the order date to answer questions 14 and 15. I deleted the *Ship Date* column, because it is no longer relevant. The *Row ID* column is not useful for my analysis, so I deleted this column as well, but kept the *Order ID* column, as it describes which products were placed in the same order.
 
 By taking these steps, I made the data easier to understand and work with during the rest of my analysis.
-
 ## Cleaning the Data
+Before we can perform a reliable analysis of our data, we must make sure that it is cleaned. 
+
+The first step I took toward cleaning the data was rounding the values in the *Sales* and *Profit* columns to two decimals places, as monetary values should be. I do so by creating another column and using Excel's *ROUND* function. I then replaced the original columns with the new rounded columns. Next, I created a pivot table of the discount values in order to confirm that each was a reasonable value (between 0 and 1). I then did the same for the *Quantity* column.
+
+While I cannot reliably confirm that each entry in the *Product Name* column is correct, I can do so for the *Category* and *Sub-Category* columns. I did so by creating a pivot table with the sub-categories as child rows to the categories. This revealed that there were no incorrectly entered values in these columns.
+
+Two columns which I thought were going to be difficult to clean were the *Order ID* and *Product ID* columns. However, I decided to startby splitting each into separate parts, since each ID was separated into three parts using dashes. The order IDs contained either *US* or *CA* first, then the year, and then the designated number. The product IDs contained an abbreviation for the product category and an abbreviation for the sub-category, and then the designated number. Using the *LEFT*, *RIGHT* and *MID* Excel functions, I was able to separate these parts into six different columns. I then used a pivot table to confirm that each contained appropriate values. 
+
+I then performed the same confirmation for the *Customer ID* column using the same method. Along with checking the customer ID's, I needed to check the customer names. To do so, I used the Excel *IF* and *FIND* functions to check whether the first and second letters of the customer IDs matched the customer's initials. After doing so, the first letters returned no errors, but the second letters returned a *#VALUE!* error in the pivot table. After looking further, I discovered that one person's name was entered as "Corey-Lock" and their customer ID began with "Co" rather than with two capital letters. Since I did not have a first name for this person, I could simply remove the dash in their name and used the two parts of their last name to remake their customer ID. Before doing so however, I used a pivot table to check if any other customer IDs began with "CL", to avoid confusing Corey-Lock's ID with another if they also somehow shared the same designated number in their ID. Other customer IDs did begin with "CL", so I filtered the data for all orders containing these customer ID's and created a pivot table to see which ID numbers were given to these customers. Corey-Lock's ID number did not match any of theirs, so I simply removed the dash in his name and changed all entries of his ID so they began with "CL". After doing so, no errors were returned in our pivot table for the names of the customers.
+
+Next, I created a pivot table of the *City/State* column and browsed through it to see if there were any inappropriate entries, of which I did not find any. Doing the same for the *Region* column, I saw that there were only entries with the four available regions: *East*, *Central*, *South* and *West*.
+
+Next, I created a pivot table for the *Order Date* column and found that each entry was a date between January of 2014 and December of 2017.
+
+Finally, all of the data has been cleaned. Now, we can begin exploring the data in search for valuable information.
 ## Analyzing the Data
 ## Visualizing the Data
