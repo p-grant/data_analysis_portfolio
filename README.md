@@ -14,7 +14,12 @@ To begin exploring data analysis, I decided to analyze a dataset that describes 
 ### freeCodeCamp
 #### Video Tutorials
 ## Certificates
-
+### Google Data Analytics Professional Certificate
+[This Certificate](https://www.coursera.org/account/accomplishments/professional-cert/2MVH7V5QJUWG) has strengthened my analytical skills and improved my knowledge of technical tools such as Excel, SQL, Tableau and R.
+### freeCodeCamp's Scientific Computing with Python Certificate
+[This certificate](https://www.freecodecamp.org/certification/fccee756160-99cc-44d4-9a22-09cb8243fb5d/scientific-computing-with-python-v7) has taught me to use Python to automate tasks and perform complex calculations with data.
+### freeCodeCamp's Data Analysis with Python Certificate
+This certificate will enhance my ability to use Python to collect, clean, transform and share data (to be completed by November, 2022).
 
 
 
