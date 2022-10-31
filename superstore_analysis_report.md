@@ -10,20 +10,25 @@ The data was borrowed from Tableau's collection of sample data. After downloadin
 The *Returns* sheet includes a list of Order ID numbers. There is not a description describing what this information means, and I am not able to contact the person who provided the information, so I will assume this sheet provides a list of the orders which were returned to the superstore. The *People* sheet has four names, each of which is attributed to a region. I must assume that these are meant to be the names of people in charge of overseeing orders from each region.
 ## Goals
 Before I could begin analyzing the data, I needed to determine what questions I wanted to answer using the data. After reviewing the information provided by the data, I decided to answer these questions:
-- Which kinds of products are returned most frequently?
-- Do we make a larger profit on average from repeat customers, or from customers who place a single order? 
-- Do repeat customers recieve more frequent and/or larger discounts than single order customers?
-- Do we make a larger profit on orders containing a larger number of items?
-- Do we make a larger profit off of our more expensive products?
-- Which cities are many of our orders sent to? What kinds of products are sent to which cities most frequently?
-- Which cities do we make a largest profit from?
-- Of the four regions, which makes the largest profit?
-- Which product categories are the most profitable? Which products within each category are the most profitable?
-- Which products are ordered more frequently using discounts? How large are the discounts on orders of certain products?
-- Has the superstore seen more orders in recent years? Has the superstore seen more profit?
+1. Which kinds of products are returned most frequently?
+2. Do we make a larger profit on average from repeat customers, or from customers who place a single order? 
+3. Do repeat customers recieve more frequent and/or larger discounts than single order customers?
+4. Do we make a larger profit on orders containing a larger number of items?
+5. Do we make a larger profit off of our more expensive products?
+6a. Which cities are many of our orders sent to? 
+  6b. What kinds of products are sent to which cities most frequently?
+7. Which cities do we make a largest profit from?
+8. Of the four regions, which makes the largest profit?
+9a. Which product categories are the most profitable? 
+  9b. Which products within each category are the most profitable?
+10a. Which products are ordered more frequently using discounts? 
+  10b. How large are the discounts on orders of certain products?
+10a. Has the superstore seen more orders in recent years? 
+  10b. Has the superstore seen more profit?
 
 While there are many more questions that this data could be used to answer, I believe that answering these questions will provide valuable insight into areas where the company could improve or capitalize on certain situations.
 ## Preparing the Data
+Now that I know what I am looking for in the data, I can decide what data is necessary and what format it needs to be in. The data in the *Returns* and *People* sheets is necessary for questions 1 and 8. 
 ## Cleaning the Data
 ## Analyzing the Data
 ## Visualizing the Data
