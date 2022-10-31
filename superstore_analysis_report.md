@@ -22,7 +22,7 @@ Before I could begin analyzing the data, I needed to determine what questions I 
 - Which products are ordered more frequently using discounts? How large are the discounts on orders of certain products?
 - Has the superstore seen more orders in recent years? Has the superstore seen more profit?
 
-While there are many more questions that this data could be used to answer, I believe that these questions will provide valuable insight into areas where the company could improve or capitalize on certain situations.
+While there are many more questions that this data could be used to answer, I believe that answering these questions will provide valuable insight into areas where the company could improve or capitalize on certain situations.
 ## Preparing the Data
 ## Cleaning the Data
 ## Analyzing the Data
