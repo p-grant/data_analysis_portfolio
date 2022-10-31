@@ -16,7 +16,7 @@ Before I could begin analyzing the data, I needed to determine what questions I 
 4. Do we make a larger profit on orders containing a larger number of items?
 5. Do we make a larger profit off of our more expensive products?
 6. Which cities are many of our orders sent to? 
-7 What kinds of products are sent to which cities most frequently?
+7. What kinds of products are sent to which cities most frequently?
 8. Which cities do we make a largest profit from?
 9. Of the four regions, which makes the largest profit?
 10. Which product categories are the most profitable? 
