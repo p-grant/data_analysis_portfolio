@@ -60,7 +60,7 @@ Instead, I decided to create several database tables with information that was a
 1. Orders
   - Order ID
   - Order Date
-  - City/State ID
+  - City/State
   - Customer ID
   - Sale Total
   - Profit
@@ -69,7 +69,6 @@ Instead, I decided to create several database tables with information that was a
   - Customer ID
   - Customer Name
 3. Locations
-  - City/State ID
   - City/State
   - Region
 4. Products
@@ -78,6 +77,6 @@ Instead, I decided to create several database tables with information that was a
   - Sub-Category
   - Product Name
 
-I used pivot tables in Excel to gather the necessary information for  each table and then saved each sheet as a separate CSV file.
+I used pivot tables in Excel to gather the necessary information for  each table and then saved each sheet as a separate CSV File. Next, I needed to use a Jupyter Notebook to rearrange the pivot table data into a table that can be uploaded into a SQL database.
 ## Analyzing the Data
 ## Visualizing the Data
