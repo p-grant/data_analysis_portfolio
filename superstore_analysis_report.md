@@ -77,6 +77,6 @@ Instead, I decided to create several database tables with information that was a
   - Sub-Category
   - Product Name
 
-I used pivot tables in Excel to gather the necessary information for  each table and then saved each sheet as a separate CSV File. Next, I needed to use a [Jupyter Notebook](https://github.com/p-grant/data_analysis_portfolio/blob/main/Superstore%20SQL%20Tables%20Preparation.ipynb) to rearrange the pivot table data into tables that can be uploaded into a SQL database.
+I used pivot tables in Excel to gather the necessary information for  each table and then saved each sheet as a separate CSV File. Next, I needed to use a [Jupyter Notebook](https://github.com/p-grant/data_analysis_portfolio/blob/main/Superstore%20SQL%20Tables%20Preparation.ipynb) to rearrange the pivot table data into tables that can be uploaded into a SQL database. Next, I downloaded the four new files containing my database-ready tables. I then uploaded these tables to a [BigQuery Database](https://console.cloud.google.com/bigquery?project=superstore-367312&ws=!1m4!1m3!3m2!1ssuperstore-367312!2sSuperstore).
 ## Analyzing the Data
 ## Visualizing the Data
