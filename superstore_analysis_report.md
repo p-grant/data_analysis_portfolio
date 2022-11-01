@@ -53,7 +53,7 @@ Next, I created a pivot table of the *City/State* column and browsed through it 
 Next, I created a pivot table for the *Order Date* column and found that each entry was a date between January of 2014 and December of 2017.
 
 Finally, all of the data has been cleaned. Now, I can begin exploring the data in search for valuable information.
-## The Database
+## Creating a Database
 While working with the data, I noticed that there were many ID columns that described each unique item of a certain type. Because of this, I decided that it may be useful to create a database that contained all of this information. However, there were several problems with doing so. The first was that many orders containined multiple different products. I could display this information in a database, but it would be difficult to then use the JOIN feature of SQL to create complex queries. Another problem was that within each order, different products recieved different discounts and were purchased in idfferent quantities. It would not be efficent to attempt to describe this information within a database. The last problem I noticed was that many customers placed orders from several different locations, so we could  not assign each customer to a single location. 
 
 Instead, I decided to create several database tables with information that was able to be effectively contained within a database. Originally, I intended to pair each product with its unit price, unit cost, and profit on purchases without a discount, but after reviewing the data, there seems to be inconsistencies in the calculations for the sale price of each order, as the unit price before discounts is often calculated as several different values for different orders of the same product. Because of this, I decided to simply include the non-monetary product information in the database. The database tables are described below:
@@ -77,6 +77,8 @@ Instead, I decided to create several database tables with information that was a
   - Sub-Category
   - Product Name
 
-I used pivot tables in Excel to gather the necessary information for  each table and then saved each sheet as a separate CSV File. Next, I needed to use a [Jupyter Notebook](https://github.com/p-grant/data_analysis_portfolio/blob/main/Superstore%20SQL%20Tables%20Preparation.ipynb) to rearrange the pivot table data into tables that can be uploaded into a SQL database. Next, I downloaded the four new files containing my database-ready tables. I then uploaded these tables to a [BigQuery Database](https://console.cloud.google.com/bigquery?project=superstore-367312&ws=!1m4!1m3!3m2!1ssuperstore-367312!2sSuperstore).
+I used pivot tables in Excel to gather the necessary information for  each table and then saved each sheet as a separate CSV File. Next, I needed to use a [Jupyter Notebook](https://github.com/p-grant/data_analysis_portfolio/blob/main/Superstore%20SQL%20Tables%20Preparation.ipynb) to rearrange the pivot table data into tables that can be uploaded into a SQL database. Next, I downloaded the four new files containing my database-ready tables. I then uploaded these tables to a [BigQuery Database](https://console.cloud.google.com/bigquery?project=superstore-367312&ws=!1m4!1m3!3m2!1ssuperstore-367312!2sSuperstore). 
+
+Now that the database has been created, I am finally  able to begin my analysis.
 ## Analyzing the Data
 ## Visualizing the Data
