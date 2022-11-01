@@ -72,7 +72,7 @@ Instead, I decided to create several database tables with information that was a
   - City/State ID
   - City/State
   - Region
-5. Products
+4. Products
   - Product ID
   - Category
   - Sub-Category
