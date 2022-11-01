@@ -1,4 +1,4 @@
-# data_analysis_portfolio
+# Data Analysis Portfolio
 This is a collection of my data analysis projects.
 
 ## About
