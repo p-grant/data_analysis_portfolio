@@ -77,5 +77,7 @@ Instead, I decided to create several database tables with information that was a
   - Category
   - Sub-Category
   - Product Name
+
+I used pivot tables in Excel to gather the necessary information for  each table and then saved each sheet as a separate CSV file.
 ## Analyzing the Data
 ## Visualizing the Data
