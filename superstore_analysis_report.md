@@ -54,10 +54,13 @@ Next, I created a pivot table for the *Order Date* column and found that each en
 
 Finally, all of the data has been cleaned. Now, I can begin exploring the data in search for valuable information.
 ## The Database
-While working with the data, I noticed that there were many ID columns that described each unique item of a certain type. Because of this, I decided that it may be useful to create a database that contained all of this information. However, there were several problems with doing so. The first was that many orders containined multiple different products. I could display this information in a database, but it would be difficult to then use the JOIN feature of SQL to create complex queries. Another problem was that within each order, different products recieved different discounts and were purchased in idfferent quantities. It would not be efficent to attempt to describe this information within a database. Instead, I decided to create several database tables with information that was able to be effectively contained within a database. These tables are described below:
+While working with the data, I noticed that there were many ID columns that described each unique item of a certain type. Because of this, I decided that it may be useful to create a database that contained all of this information. However, there were several problems with doing so. The first was that many orders containined multiple different products. I could display this information in a database, but it would be difficult to then use the JOIN feature of SQL to create complex queries. Another problem was that within each order, different products recieved different discounts and were purchased in idfferent quantities. It would not be efficent to attempt to describe this information within a database. The last problem I noticed was that many customers placed orders from several different locations, so we could  not assign each customer to a single location. 
+
+Instead, I decided to create several database tables with information that was able to be effectively contained within a database. Originally, I intended to pair each product with its unit price, unit cost, and profit on purchases without a discount, but after reviewing the data, there seems to be inconsistencies in the calculations for the sale price of each order, as the unit price before discounts is often calculated as several different values for different orders of the same product. Because of this, I decided to simply include the non-monetary product information in the database. The database tables are described below:
 1. Orders
   - Order ID
   - Order Date
+  - City/State ID
   - Customer ID
   - Sale Total
   - Profit
@@ -65,15 +68,14 @@ While working with the data, I noticed that there were many ID columns that desc
 2. Customers
   - Customer ID
   - Customer Name
+3. Locations
+  - City/State ID
   - City/State
   - Region
-3. Products
+5. Products
   - Product ID
   - Category
   - Sub-Category
   - Product Name
-  - Unit Price
-  - Unit Cost
-  - Profit (w/o Discount)
 ## Analyzing the Data
 ## Visualizing the Data
