@@ -15,7 +15,8 @@ To begin exploring data analysis, I decided to analyze a dataset that describes 
 #### Video Tutorials
 ### Notes
 I have documented the material learned from each project in several files:
-- [Data Analysis Process Notes](Study_Projects/data_analysis_process.md)
+- [Data Analysis Process](Study_Projects/data_analysis_process.md)
+- [Microsoft Excel](Study_Projects/Microsoft_Excel.md)
 ## Certificates
 ### Google Data Analytics Professional Certificate
 [This Certificate](https://www.coursera.org/account/accomplishments/professional-cert/2MVH7V5QJUWG) has strengthened my analytical skills and improved my knowledge of technical tools such as Excel, SQL, Tableau and R.
