@@ -41,4 +41,46 @@ Six common types of problems:
 - Discovering Connections
 - Finding patterns
 
-# Business
+### Data 
+Methods of collecting data: 
+- Interviews
+- Observations
+- Questionnaires
+- Forms
+- Surveys
+- Cookies
+
+Population: All possible data values in a certain data set.
+- Sample: Part of a population that is representative of the population.
+  - Don’t use sample sizes less than 30. 
+  - Confidence Level: How confident you are in the survey results.
+   - The most common accepted confidence level is 95%.
+### Data Analysis Process
+Six Steps: 
+- Ask
+- Prepare
+- Process
+- Analyze
+- Share
+- Act
+
+Effective questions follow the SMART methodology: 
+- Specific
+- Measurable
+- Action-Oriented
+- Relevant
+- Time-Bound
+
+
+## Business
+A business task is the question or problem data analysis answers for business.
+
+ROI, or Return on Investment is essentially a formula designed using metrics that let a business know how well an investment is doing.
+- Made up of two metrics, the net profit over a period of time and the cost of investment.
+
+Growth per Year = Current Year – Previous Year
+
+% Growth per Year = Growth per Year / Previous Year
+
+Profit Margin: A percentage that indicates how many cents of profit have been generated for each dollar of sale.
+
