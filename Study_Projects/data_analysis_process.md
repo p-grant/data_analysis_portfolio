@@ -73,6 +73,13 @@ Data can be internal or external, structured or unstructured, and wide or long.
 
 Good data sources are Reliable, Original, Comprehensive, Current, and Cited (ROCCC).
 
+Open-source Data Sources:
+- [Data.gov](https://data.gov/)
+- [Census Bureau](https://www.census.gov/data.html)
+- [Open Data Network](https://www.opendatanetwork.com/)
+- [Google Cloud Public Datasets](https://cloud.google.com/datasets)
+- [Google Dataset Search](https://datasetsearch.research.google.com/)
+
 #### Data Ethics
 Individuals own the raw data they provide, and they have primary control over its usage, how it's processed and how it's shared.
 
@@ -151,9 +158,52 @@ Tools:
 - Data validation is a tool for checking the accuracy and quality of data before adding or importing it.
 - Conditional Formatting
 - COUNTIF and other Functions
-- Sorting and Filtering.
+- Sorting and Filtering
+- Pivot Tables
 
 Verification: A process to confirm that a data cleaning effort was well-executed and the resulting data is accurate and reliable.
+
+#### Data Visualization
+Key elements: 
+- Information
+- Story
+- Goal
+- Visual Form
+
+Marks: Basic visual objects like points, lines, and shapes.
+
+Channels: Visual aspects or variables that represent characteristics of the data.
+
+Types of graphs:
+- Bar Graphs: Use size contrast to compare two or more values.
+- Line Graphs: Help your audience understand shifts or changes in your data.
+- Pie Charts: Show how much each part of something makes up the whole.
+- Maps: Help organize data geographically.
+- Histogram: Shows how often values fall within a certain range.
+- Correlation charts: Can show relationships among data.
+- Other kinds of visuals: Heatmaps, Scatter Plots, Distribution Graph.
+
+When to use different visuals:
+- When data changes over time: Line Graphs, Bar Graphs, Stacked Bar Graphs, Area Graphs.
+- When comparing distinct objects: Ordered Bar and Group Bar Graphs, Ordered Column Charts.
+- When we want to show parts of a whole: Stack Graphs, Donuts, Stacked Areas, Pie Charts, Tree Maps.
+- When we want to show relationships: Scatterplot, Bubble Charts, Column/Line Graphs, Heatmaps.
+
+Headline: A line of words printed in large letters at the top of the visualization to communicate 	what data is being presented.
+
+Subtitle: Supports the headline by adding more context and description.
+
+Making data more accessible: 
+- Labeling
+- Text Alternatives
+- Text-Based Format
+- Distinguishing
+- Simplify
+
+Data Composition: Combining the individual parts of a visualization and displaying them together as a whole.
+
+[
+
 ## Business
 A business task is the question or problem data analysis answers for business.
 
