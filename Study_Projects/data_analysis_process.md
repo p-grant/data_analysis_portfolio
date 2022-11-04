@@ -202,8 +202,6 @@ Making data more accessible:
 
 Data Composition: Combining the individual parts of a visualization and displaying them together as a whole.
 
-[
-
 ## Business
 A business task is the question or problem data analysis answers for business.
 
