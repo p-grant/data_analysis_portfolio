@@ -133,7 +133,27 @@ Data Transformation: The process of changing the data’s format, structure, or 
 Transposing Data: Convert data from long to wide format.
 
 #### Data Cleaning
-![Common Problems with Unclean Data](../Images/problems_with_unclean_data.png)
+When you clean data, you transform it into a more useful format, create more complete information and remove outliers.
+
+Steps:
+- Make a copy of the dataset before editing it.
+- Remove data that is no longer relevant to the problem you are trying to solve (ex: outdated data).
+- Remove duplicate data.
+- Remove extra spaces and blanks. These will cause errors when sorting or filtering.
+- Fix misspellings, inconsistent capitalization, incorrect punctuation, and other typos.
+- Remove formatting.
+- Document any errors you find and determine their source to prevent them in the future.
+  - Documentation: The process of tracking changes, additions, deletions and errors involved in your data cleaning effort.
+  - Changelog: A file containing a chronologically ordered list of modifications made to a project.
+- Do spot checks on things such as the number of nulls.
+
+Tools:
+- Data validation is a tool for checking the accuracy and quality of data before adding or importing it.
+- Conditional Formatting
+- COUNTIF and other Functions
+- Sorting and Filtering.
+
+Verification: A process to confirm that a data cleaning effort was well-executed and the resulting data is accurate and reliable.
 ## Business
 A business task is the question or problem data analysis answers for business.
 
