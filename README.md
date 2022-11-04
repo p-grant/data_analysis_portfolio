@@ -13,6 +13,8 @@ To begin exploring data analysis, I decided to analyze a dataset that describes 
 ## Study Projects
 ### freeCodeCamp
 #### Video Tutorials
+### Notes
+[Data Analysis Process Notes](Study Notes/Data Analysis Process.md)
 ## Certificates
 ### Google Data Analytics Professional Certificate
 [This Certificate](https://www.coursera.org/account/accomplishments/professional-cert/2MVH7V5QJUWG) has strengthened my analytical skills and improved my knowledge of technical tools such as Excel, SQL, Tableau and R.
