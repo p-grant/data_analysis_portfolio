@@ -73,6 +73,43 @@ Data can be internal or external, structured or unstructured, and wide or long.
 
 Good data sources are Reliable, Original, Comprehensive, Current, and Cited (ROCCC).
 
+#### Data Ethics
+Individuals own the raw data they provide, and they have primary control over its usage, how it's processed and how it's shared.
+
+Transaction Transparency: The idea that all data processing activities and algorithms should be completely explainable and understood by the individual who provides their data.
+
+Consent: An individual's right to know explicit details about how and why their data will be used before agreeing to provide it.
+
+Currency: Individuals should be aware of financial transactions resulting from the use of their personal data and the scale of these transactions.
+
+Privacy: Preserving a data subject's information and activity any time a data transaction occurs.	
+
+Openness: Free usage, access, and sharing of data.
+
+Data Anonymization: The process of protecting people's private or sensitive data by eliminating that kind of information.
+
+Personally identifiable information, or PII, is information that can be used by itself or with other data to track down a person's identity.
+
+De-identification: A process used to wipe data clean of all personally identifying information.
+
+#### Metadata
+Metadata: Tells you where the data comes from, when and how it was created, and what it's all about.
+Several Types:
+- Descriptive: Describes a piece of data and can be used to identify it at a later point in time.
+- Structural: Indicates how a piece of data is organized and whether it's part of one or more than one data collection.
+- Administrative: Indicates the technical source of a digital asset.
+
+Information typically provided: 
+- Title and Description
+- Tags and Categories
+- Who Created it and When
+- Who Last Modified it and When
+- Who can Access or Update it.
+
+Metadata Repository: A database specifically created to store metadata.
+
+Data Governance: A process to ensure the formal management of a company’s data assets.
+
 ### Data Analysis Process
 Six Steps: 
 - Ask
