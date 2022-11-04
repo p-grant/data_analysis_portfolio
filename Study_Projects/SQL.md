@@ -161,11 +161,42 @@ GROUP BY
 ```
 HAVING: Filters your query rather than the table. Syntax is the same as with the WHERE clause. 
 
-CASE: Goes through one or more conditions and returns a value when a condition is met. A  new column is created with the updated values.
+CASE: Goes through one or more conditions and returns a value when a condition is met. A  new column is created with the updated values:
 ```sql
 CASE
   WHEN condition THEN new_value
   WHEN condition THEN new_value
   ELSE original_column
 END AS new_column_name
+```
+IF: Used to replace certain values where a condition is met:
+```sql
+IF(
+condition,
+new_value,
+original_column) AS new_column_name
+```
+You can find missing data by displaying data where a value is NULL.
+
+## Subqueries
+Execute before the query they rest inside of. They are usually nested in FROM or WHERE query clauses. Designated using parentheses:
+```sql
+SELECT
+  (SELECT...
+  FROM...)
+```
+## Statistical Functions
+SUM: Calculates the sum of a column; AVG: Calculates the average value for a column:
+```sql
+SUM(column)
+AVG(column)
+```
+ROUND: Used to round a value:
+```sql
+ROUND(value, number of decimal places)
+```
+MIN AND MAX: Return a column’s minimum and maximum values:
+```sql
+MIN(column)
+MAX(column)
 ```
