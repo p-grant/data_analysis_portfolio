@@ -48,5 +48,69 @@ Functions:
 - Common spreadsheet math functions: SUM, AVERAGE, COUNT, MIN, MAX.
   - SUMIF: (Range, criteria/condition, [Sum Range]):
     - Range = Range we are looking for condition in.
-		- Sum Range= Range we are summing over if a certain condition is met.
+    - Sum Range= Range we are summing over if a certain condition is met.
+  - MAXIFS([Max Range], Range 1, Criteria 1, Range 2, Criteria 2, …)
+    - MINIFS, SUMIFS, and AVERAGEIFS work the same way.
+- SUMPRODUCT(array 1, array 2, …): Multiplies arrays and returns the sum of those products.
+- VLOOKUP (value to search for, range, number representing column we want to be returned, FALSE): Searches for a certain value in a column to return a corresponding piece of information.
+  - ‘false’ means that an exact match is what we’re looking for.
+  - ‘Spreadsheet name’!range is used to look for data in another sheet.
+  - Usually, you will use an absolute reference in the range with $ signs.
+  - When looking for a string, the value to search for must be in quotation marks.
+- DATEDIF(cell1, cell2, "format"): Returns the difference between two dates in a desired format.
+- COUNTIF(range, value): Counts the number of times a value occurs in a range.
+- COUNTIFS(range 1, criteria 1, range 2, criteria 2, …): Ranges must meet all conditions to be counted.
+  - Looking for values = 1: “=1”
+  - Looking for value > 1: “>1”
+- COUNT(range): Counts the number of numerical values within a range.
+- COUNTA(range): Count all of the values within a range.
+- CONVERT(cell, “unit”, “unit”): Used to convert a value from one unit to another (ex: Celsius to Fahrenheit)
+
+Absolute referencing is marked by a dollar sign ($). For example, =$A$10 has absolute referencing for both the column and the row value.
+
+Errors:
+- Div: Occurs when a formula is trying to divide by zero, or by an empty cell.
+  - Fixed using IFERROR(value, value_if_error)
+- Error: Occurs when a formula can’t be interpreted as input (parsing error).
+- N/A: The data can’t be found on your spreadsheet.
+- Name: Occurswhen a formula's name isn't recognized or understood.
+- Num:  Tells us that a formula's calculation can't be performed as specified by the data.
+- Value: Indicates a problem with a formula or referenced cells.
+- Ref: Occurs when cells being referenced in a formula have been deleted, thus making the formula unable to perform the calculation.
+
+Data Types: 
+- Numeric
+- Text/String
+- Boolean. 
+
+Boolean operators: 
+- AND
+- OR
+- NOT
+
+Data Validation: Allows you to control what can and can't be entered in your worksheet.
+- Drop-down lists with pre-determined options for users to choose from:
+  - Data Menu -> Data Validation -> List -> Input Options separated by commas.
+- Custom check boxes (Google Sheets)
+  - Data Validation -> Checkbox
+  - We can use the custom cell values option to define what a checked or unchecked box means.
+- Protect structured data and formulas:
+  - Data Menu -> Data Validation -> Error Alert
+- Ensure value is a date: 
+  - Data Validation -> Date
+
+When you only want the static cell values to be pasted, and not the equations attributed to them, use Paste Special -> Paste Values Only.
+
+Pivot Tables:
+- You may add rows, and then create pivot groups to organize the rows (ex: group by year).
+- You may add values and then apply a function to the values by selecting what you summarize by (ex: SUM is the default summary option).
+- You may also create a calculated field to perform custom calculations based on the values  of other fields.
+- You can apply filters to the data, so that you may look at data that meets a certain condition.
+
+Resources: 
+- [Microsoft Excel Training](https://support.microsoft.com/en-us/office/excel-video-training-9bc05390-e94c-46af-a5b3-d7c22f6990bb)
+- [Excel Shortcuts](https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f)
+- [Functions and Formulas](https://support.microsoft.com/en-us/office/formulas-and-functions-294d9486-b332-48ed-b489-abe7d0f9eda9?ui=en-US&rs=en-US&ad=US#id0eaabaaa=errors)
+- [Keyboard Shortcuts](https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec)
+- [TEXT Function](https://support.microsoft.com/en-us/office/text-function-20d5ac4d-7b94-49fd-bb38-93d29371225c)
 
