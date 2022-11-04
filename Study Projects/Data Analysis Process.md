@@ -56,6 +56,23 @@ Population: All possible data values in a certain data set.
   - Confidence Level: How confident you are in the survey results.
     - The most common accepted confidence level is 95%.
   - Margin-of-error: The amount a sample’s results are expected to differ from what the result would have been if the entire population had been surveyed. The maximum that the sample results are expected to differ from those of the actual population.
+  - With a survey result of 60%, a margin of error of 10%, and a confidence level of 95%, there is a 95% chance that the result from the entire population would be in between 50% and 70%.
+  - Statistical Significance: The determination of whether your results could be due to random chance or not.
+  - Statistical Power: The probability of getting meaningful results from a test.
+    - If statistical power is 0.6, or 60%, it means there is a 60% chance of you getting a statistically significant result. A value of 0.8 is generally considered 	 statistically significant.
+
+Qualitative Data: 
+- Nominal: Categorized without a set order.
+- Ordinal: Categorized with a set order or scale.
+
+Quantitative Data:
+- Discrete: Counted and has a limited number of possible values.
+- Continuous: Measured and can have almost any numeric value.
+
+Data can be internal or external, structured or unstructured, and wide or long.
+
+Good data sources are Reliable, Original, Comprehensive, Current, and Cited (ROCCC).
+
 ### Data Analysis Process
 Six Steps: 
 - Ask
