@@ -133,7 +133,7 @@ Data Transformation: The process of changing the data’s format, structure, or 
 Transposing Data: Convert data from long to wide format.
 
 #### Data Cleaning
-![Common Problems with Unclean Data](Images/problems_with_unclean_data.jpg)
+![Common Problems with Unclean Data](../Images/problems_with_unclean_data.jpg)
 ## Business
 A business task is the question or problem data analysis answers for business.
 
