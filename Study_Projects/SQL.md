@@ -69,3 +69,23 @@ WHERE
   OR col_2 = 6
 ```
 The <> operator is used as the "not equal to" operator.
+
+To query data that match a specific pattern, use the LIKE clause. For example, we can query all data where the value begins with "Ch" and is followed by one or more random characters:
+```sql
+WHERE
+  col_1 LIKE 'Ch%'
+```
+Some database systems use \* as the random character symbol instead of %.
+
+Comments in SQL are text placed between "/\*" and "\*/" or after two dashes ("--"):
+```sql
+-- this will not affect the query
+```
+Aliases are used to more easily reference a column or table, instead of actually renaming them:
+```sql
+col_1 AS one
+SELECT
+  one
+FROM
+  table
+```
