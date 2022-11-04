@@ -30,3 +30,15 @@ As a data analyst, you want to help create systems that are fair and inclusive t
 - Observer Bias: The tendency for people to observe things differently. 
 - Interpretation Bias: The tendency to always interpret ambiguous situations in a positive, or negative way.
 - Confirmation Bias: The tendency to search for, or interpret information in a way that confirms preexisting beliefs.
+
+Structured thinking is the process of recognizing the current problem or situation, organizing available information, revealing gaps and opportunities, and identifying the options.
+
+Six common types of problems: 
+- Making Predictions
+- Categorizing Things
+- Spotting Something Unusual
+- Identifying Themes
+- Discovering Connections
+- Finding patterns
+
+# Business
