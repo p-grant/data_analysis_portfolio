@@ -17,12 +17,17 @@ VALUES
   (value 1, value 2, etc.);
 ```
 UPDATE: Used to change a value in a table.
+```sql
 UPDATE table
 SET column = ‘value 1’
 WHERE column = ‘value 2’;
+```
 CREATE TABLE IF NOT EXISTS: Creates a new table in the database.
+
 DROP TABLE IF EXISTS: Deletes a table from the database.
+
 DELETE: Removes a row from a table.
+```sql
 DELETE table
 WHERE column = ‘value’
-
+```
