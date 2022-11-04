@@ -10,10 +10,14 @@ Types of Keys:
 
 Working with Tables:
 - INSERT INTO: Used to insert new data into a table.
-__INSERT INTO table
-____(column 1, column 2, etc.)
-__VALUES
-____(value 1, value 2, etc.);
+
+INSERT INTO table
+
+__(column 1, column 2, etc.)
+
+VALUES
+
+__(value 1, value 2, etc.);
 - UPDATE: Used to change a value in a table.
 UPDATE table
 SET column = ‘value 1’
