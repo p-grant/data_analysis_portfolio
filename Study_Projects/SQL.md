@@ -8,23 +8,19 @@ Types of Keys:
 - Foreign keys: A field within a table that's a primary key in another table.
 - Composite Key: A primary key constructed using multiple columns.
 
-Working with Tables:
-- INSERT INTO: Used to insert new data into a table.
-
-INSERT INTO table
-
-__(column 1, column 2, etc.)
-
-VALUES
-
-__(value 1, value 2, etc.);
-- UPDATE: Used to change a value in a table.
+## Working with Tables
+INSERT INTO: Used to insert new data into a table:
+- INSERT INTO table
+  - (column 1, column 2, etc.)
+- VALUES
+  - (value 1, value 2, etc.);
+UPDATE: Used to change a value in a table.
 UPDATE table
 SET column = ‘value 1’
 WHERE column = ‘value 2’;
-- CREATE TABLE IF NOT EXISTS: Creates a new table in the database.
-- DROP TABLE IF EXISTS: Deletes a table from the database.
-- DELETE: Removes a row from a table.
+CREATE TABLE IF NOT EXISTS: Creates a new table in the database.
+DROP TABLE IF EXISTS: Deletes a table from the database.
+DELETE: Removes a row from a table.
 DELETE table
 WHERE column = ‘value’
 
