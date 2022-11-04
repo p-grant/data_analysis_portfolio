@@ -55,6 +55,7 @@ Population: All possible data values in a certain data set.
   - Don’t use sample sizes less than 30. 
   - Confidence Level: How confident you are in the survey results.
     - The most common accepted confidence level is 95%.
+  - Margin-of-error: The amount a sample’s results are expected to differ from what the result would have been if the entire population had been surveyed. The maximum that the sample results are expected to differ from those of the actual population.
 ### Data Analysis Process
 Six Steps: 
 - Ask
