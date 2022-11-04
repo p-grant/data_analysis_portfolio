@@ -9,7 +9,7 @@ This is a collection of my data analysis and study projects that I have complete
 ## Case Studies
 ### Superstore Analysis
 To begin exploring data analysis, I decided to analyze a dataset that describes the orders made from an imaginary superstore. 
-[Analysis Report](superstore_analysis_report.md)
+[Analysis Report](Superstore/superstore_analysis_report.md)
 ## Study Projects
 ### freeCodeCamp
 #### Video Tutorials
