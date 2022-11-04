@@ -14,7 +14,7 @@ To begin exploring data analysis, I decided to analyze a dataset that describes 
 ### freeCodeCamp
 #### Video Tutorials
 ### Notes
-I have documented the material learned from each project in several documents:
+I have documented the material learned from each project in several files:
 - [Data Analysis Process Notes](Study_Projects/data_analysis_process.md)
 ## Certificates
 ### Google Data Analytics Professional Certificate
