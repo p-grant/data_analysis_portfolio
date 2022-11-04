@@ -54,7 +54,7 @@ Population: All possible data values in a certain data set.
 - Sample: Part of a population that is representative of the population.
   - Don’t use sample sizes less than 30. 
   - Confidence Level: How confident you are in the survey results.
-   - The most common accepted confidence level is 95%.
+    - The most common accepted confidence level is 95%.
 ### Data Analysis Process
 Six Steps: 
 - Ask
