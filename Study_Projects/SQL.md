@@ -8,6 +8,14 @@ Types of Keys:
 - Foreign keys: A field within a table that's a primary key in another table.
 - Composite Key: A primary key constructed using multiple columns.
 
+## Datatypes
+SQL can work with several different datatypes:
+- STRING
+- INT (Positive or Negative Whole Numbers)
+- FLOAT (Numbers with a Decimal)
+- DATE
+- DATETIME
+
 ## Working with Tables
 INSERT INTO: Used to insert new data into a table:
 ```sql
@@ -200,3 +208,61 @@ MIN AND MAX: Return a column’s minimum and maximum values:
 MIN(column)
 MAX(column)
 ```
+## JOINS
+JOINS: A SQL clause that's used to combine rows from two or more tables based on a related column.	
+
+Inner JOIN: A function that returns records with matching values in both tables. (Usually the default JOIN used by analysts):
+```sql
+JOIN
+```
+Left JOIN: Will return all the records from the left table and only the matching records from the right table:
+```sql
+LEFT JOIN
+```
+Right JOIN: Will return all the records from the right table and only the matching records from the left table:
+```sql
+RIGHT JOIN
+```
+(The table mentioned first is left, and the table mentioned second is right.)
+
+Outer JOIN: Will return all records in both tables:
+```sql
+FULL OUTER JOIN
+```
+NULL will appear for values that don’t appear in one table, but appear in the other.
+
+Example JOIN query:
+```sql
+SELECT
+* 
+FROM
+table_1
+JOIN 
+table_2 ON
+table_1.column = table_2.column
+```
+## Temporary Tables
+Tables that are deleted after your session ends.
+
+The WITH clause is a type of temporary table that you can query multiple times:
+```sql
+WITH temp_table_name AS (
+  SELECT 
+    columns
+	FROM
+	  table
+	)
+```
+In the same query, we can now reference the new temporary table.
+
+SELECT INTO: Copies data from one table into a new table but it doesn't add the new table to the database.
+
+(BigQuery does not recognize SELECT INTO)
+
+CREATE TABLE is useful when multiple people will use the same table.
+
+## Resources
+- [SQL Cheat Sheet](https://towardsdatascience.com/sql-cheat-sheet-776f8e3189fa)
+- [W3 Tutorial](https://www.w3schools.com/sql/default.asp)
+- [SQL Functions](https://www.w3schools.com/sql/sql_ref_sqlserver.asp)
+- [SQL Keywords](https://www.w3schools.com/sql/sql_ref_keywords.asp)
