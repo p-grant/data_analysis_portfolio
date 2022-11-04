@@ -31,3 +31,41 @@ DELETE: Removes a row from a table.
 DELETE table
 WHERE column = ‘value’
 ```
+## SQL Queries
+Basic Structure of a SQL Query:
+```sql
+SELECT 
+  column_1,
+  column_2,
+  etc
+FROM 
+  table
+WHERE
+  condition
+```
+When querying a table in BigQuery, use "dataset_name.table.name"
+
+To select every column, use the \* symbol.
+Example:
+
+To show all columns from the movies table where the genre is action, use:
+```sql
+SELECT
+  *
+FROM 
+  movies
+WHERE
+  genre = 'Action'
+```
+OR/AND logic can be used for more complicated queries:
+```sql
+WHERE
+  col_1 > 5
+  AND col_2 = 'One'
+```
+```sql
+WHERE
+  col_1 = 'Three'
+  OR col_2 = 6
+```
+The <> operator is used as the "not equal to" operator.
