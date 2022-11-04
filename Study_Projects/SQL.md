@@ -249,9 +249,9 @@ The WITH clause is a type of temporary table that you can query multiple times:
 WITH temp_table_name AS (
   SELECT 
     columns
-	FROM
-	  table
-	)
+  FROM
+    table
+  )
 ```
 In the same query, we can now reference the new temporary table.
 
