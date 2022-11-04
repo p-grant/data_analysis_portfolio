@@ -10,10 +10,12 @@ Types of Keys:
 
 ## Working with Tables
 INSERT INTO: Used to insert new data into a table:
-- INSERT INTO table
-  - (column 1, column 2, etc.)
-- VALUES
-  - (value 1, value 2, etc.);
+```sql
+INSERT INTO table
+  (column 1, column 2, etc.)
+VALUES
+  (value 1, value 2, etc.);
+```
 UPDATE: Used to change a value in a table.
 UPDATE table
 SET column = ‘value 1’
