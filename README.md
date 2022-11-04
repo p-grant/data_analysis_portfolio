@@ -14,7 +14,7 @@ To begin exploring data analysis, I decided to analyze a dataset that describes 
 ### freeCodeCamp
 #### Video Tutorials
 ### Notes
-I have documented the material learned from each project in several files:
+I have documented the cumulative material learned from my study projects in these files:
 - [Data Analysis Process](Study_Projects/data_analysis_process.md)
 - [Microsoft Excel](Study_Projects/Microsoft_Excel.md)
 - [SQL](Study_Projects/SQL.md)
