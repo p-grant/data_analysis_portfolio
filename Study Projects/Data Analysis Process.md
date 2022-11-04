@@ -10,8 +10,8 @@ Key analytical skills:
 - Data Strategy
 
 Key analytical-thinking skills:
--Visualization
--Strategy
--Problem-Orientation
--Correlation
--Big-Picture/Detail-Oriented Thinking.
+- Visualization
+- Strategy
+- Problem-Orientation
+- Correlation
+- Big-Picture/Detail-Oriented Thinking.
