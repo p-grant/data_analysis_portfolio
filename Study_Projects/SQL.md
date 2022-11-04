@@ -89,3 +89,83 @@ SELECT
 FROM
   table
 ```
+## Cleaning Data with SQL
+DISTINCT: Tells the database that we only want to see unique rows from the table. This helps us remove duplicate rows from our data:
+```sql
+SELECT
+  DISTINCT column
+```
+LENGTH: Tells us the length of a text string in a table:
+```sql
+SELECT
+  LENGTH(column)
+```
+SUBSTR: Used to return a portion of a text string:
+```sql
+WHERE
+  SUBSTR(column,starting position, number of letters we want) = 'substring'
+```
+The first letter in a text string is at position 1.
+
+EXTRACT(PART FROM date): Pulls one part of a given date to use.
+
+TRIM: Removes extra spaces from a text string.
+
+CAST: Converts anything from one data type to another:
+```sql
+CAST(column AS TYPE) 
+```
+ORDER BY: Sorts a column:
+```sql
+ORDER BY 
+  column DESC/ASC
+```
+DESC: Sorts in descending order, ASC: Sorts in ascending order.
+
+When sorting strings, we start with the first letter or number.
+
+BETWEEN: Specifies a range from one value to another. Values can be numbers or dates:
+```sql
+BETWEEN 2 AND 8
+```
+```sql
+BETWEEN '2020-12-01' AND '2020-12-31'
+```
+CONCAT: Combines text strings to create new text strings that can be used as unique keys:
+```sql
+CONCAT(column 1, column 2)
+```
+CONCAT_WS: Performs the same function as CONCAT, but places a separator in between each text string:
+```sql
+CONCAT_WS(‘separator’,text string 1, text string 2, text string 3,…)
+```
+COALESCE: Returns non-NULL values in a list:
+```sql
+SELECT
+  COALESCE(column to check first, column to check second)
+```
+If the value of the first column is NULL, the value from the second column will be used instead.
+
+COUNT: Counts the number of rows in a column:
+```sql
+COUNT(column)
+```
+To count the number of unique values in a column, use:
+```sql
+COUNT(DISTINCT column)
+```
+To create the equivalent of a pivot table by grouping the query according to avalue, use the GROUP BY command:
+```sql
+GROUP BY
+  column1, column2, etc
+```
+HAVING: Filters your query rather than the table. Syntax is the same as with the WHERE clause. 
+
+CASE: Goes through one or more conditions and returns a value when a condition is met. A  new column is created with the updated values.
+```sql
+CASE
+  WHEN condition THEN new_value
+  WHEN condition THEN new_value
+  ELSE original_column
+END AS new_column_name
+```
