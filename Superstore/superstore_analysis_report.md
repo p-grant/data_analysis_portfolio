@@ -82,5 +82,12 @@ I used pivot tables in Excel to gather the necessary information for  each table
 Now that the database has been created, I am finally  able to begin my analysis.
 ## Analyzing the Data
 ### Returns Analysis
-The first question I had regarding the data was about the rate at which certain products are returned. To begin this analysis, I needed a list of the products which have been returned. To do so, I gathered the Excel data on the products and returns for each order, and filtered out the data that was not returned. I then deleted the *Returned* column, so I had a list of each product that was returned. 
+The first question I had regarding the data was about the products that were being returned. There were several pieces of information I wanted to derive from the data:
+- At what rate does each product get returned?
+  - Is there a similar characteristic of the products that have the highest return rates?
+- Which product has been returned the most?
+- Which product categories are returned most frequently?
+- Which product sub-categories are returned most frequently? 
+
+To begin this analysis, I needed a list of the products which have been returned. To do so, I gathered the Excel data on the products and returns for each order, and filtered out the data that was not returned. I then deleted the *Returned* column, so I had a list of each product that was returned. Next to this list, I included a list ofeach product purchased in all orders. I then used a [Jupyter Notebook]() to analyze the data.
 ## Visualizing the Data
