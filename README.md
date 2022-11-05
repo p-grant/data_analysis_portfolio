@@ -11,7 +11,7 @@ This is a collection of my data analysis and study projects that I have complete
 To begin exploring data analysis, I decided to analyze a dataset that describes the orders made from an imaginary superstore. 
 [Analysis Report](Superstore/superstore_analysis_report.md)
 ## Study Projects
-#### Video Lessons
+### Video Lessons
 ### Notes
 I have documented the cumulative material learned from my study projects in these files:
 - [Data Analysis Process](Study_Projects/data_analysis_process.md)
