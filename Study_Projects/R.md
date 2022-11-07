@@ -26,7 +26,74 @@ Variable names should start with a letter, and can contain numbers and underscor
 
 Use the assignment operator, <-, to assign a value to a variable.
 ## Vectors
+Vectors are groups of data elements of the same type stored in a sequence in R.
+The combine function lets you make a vector:
+```R
+c(x,y,z,…)
+```
+Atomic Vectors:
+- Atomic vectors have values of all the same type.
+- Four kinds in data analysis: 
+  - Logical (True/False)
+  - Integer (3,-5)
+    - To insert integers into a vector, each value must be followed by “L”.
+  - Double (1.4, 3.56)
+  - Character (“text_strings”)
 
+Lists:
+- Lists are vectors that have values of different types. 
+- Created using:
+```R
+list("a", 1L, 1.5, TRUE)
+```
+- The str() function tells you what types of elements a list contains.
+
+To check the type of vector you are working with, use:
+```R
+typeof(vector)
+```
+To check how many values are in a vector, use:
+```R
+length(vector)
+```
+To check that a vector is a certain type use the following functions, which will return either True or False:
+```R
+is.logical
+is.character
+is.integer
+is.double
+```
+After assigning a vector to a variable, we can assign a name to each value in the vector:
+```R
+names(vector) <- c(“name1”,”name2”,…)
+```
+Lists can be named using: 
+```R
+list('name1' = value1, 'name2' = value2, …)
+```
+We can see the value assigned to a name using:
+```R
+$name
+```
+## Matrices
+Matrix: A two-dimensional collection of data elements.
+
+Create a matrix using:
+```R
+matrix(vector, nrow/ncol = number_of_rows_or_columns)
+```
+## Pipes
+Pipes are a tool in R for expressing a sequence of multiple operations, represented with “%>%”.
+
+Using a pipe is essentially the same as writing “and then”.
+
+Instead of using nested functions, we can use pipes.
+```R
+variable <- dataset %>%
+  function1(arguments_other_than_dataset) %>%
+  function2(arguments_other_than_dataset) %>%
+  …
+```
 ## Datasets
 - To load an already installed dataset, use the data function:
 ```R
