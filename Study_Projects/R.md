@@ -25,6 +25,7 @@ Variables (objects) are representations of values that can be stored for use lat
 Variable names should start with a letter, and can contain numbers and underscores.
 
 Use the assignment operator, <-, to assign a value to a variable.
+
 ## Vectors
 Vectors are groups of data elements of the same type stored in a sequence in R.
 The combine function lets you make a vector:
@@ -82,6 +83,18 @@ Create a matrix using:
 ```R
 matrix(vector, nrow/ncol = number_of_rows_or_columns)
 ```
+## Functions
+Arguments are information R needs for a function to run.
+
+Open the help page regarding a function:
+```R
+?function_name()
+```
+Print a text string or a variable’s value in the console:
+```R
+print(“text string”, “variable”)
+```
+Statistical Functions: We can calculate the mean, standard deviation, and correlation between two variables using the mean, sd, and cor functions.
 ## Pipes
 Pipes are a tool in R for expressing a sequence of multiple operations, represented with “%>%”.
 
@@ -94,6 +107,23 @@ variable <- dataset %>%
   function2(arguments_other_than_dataset) %>%
   …
 ```
+## Conditional Statements
+Conditional Statement are a declaration that if a certain condition holds, then a certain event must take place.
+
+Written as:
+```R
+if (condition) {
+  expression1
+} else if (condition) {
+	expression2
+} else {
+	expression3
+}
+```
+## Logic
+Logical Operators: Return a logical data type (TRUE/FALSE).
+
+AND = & or &&. OR = | or ||. NOT = !.
 ## Datasets
 - To load an already installed dataset, use the data function:
 ```R
@@ -119,6 +149,38 @@ glimpse(dataset)
 - Return each column name in a dataset:
 ```R
 colnames(dataset)
+```
+## Data Frames
+Data Frame: A collection of columns–similar to a spreadsheet or SQL table. Each column has a name at the top that represents a variable, and includes one observation per row.
+
+To manually create a data frame in R, use:
+```R
+data.frame(column1 = c(value1, value2, …), column2 = c(value1, value2,…),…)
+```
+This function accepts vectors as inputs.
+
+To make changes to a data frame, use the mutate function from the dplyr package:
+```R
+mutate(data_frame, new_column = calculation_which_can_include_other_columns)
+```
+To create a new data frame that includes columns from another, use the select function from the dplyr package:
+```R
+new_data_frame <- select(old_data_frame, column1, column2, …)
+```
+To select all columns except one column from a dataset, use:
+```R
+select(dataset, -column_to_exclude)
+```
+### Tibbles
+Tibbles are streamlined data frames:
+- Never change the data types of the inputs. 
+- Never change the names of your variables. 
+- Never create row names. 
+- Make printing in R easier.
+
+Create a tibble using:
+```R
+as.tibble(dataset)
 ```
 ## Packages
 Install a package using:
@@ -203,3 +265,6 @@ The lubridate package lets us work with dates and times:
 	- The dates in the strings being converted can show months as number, the month’s name, or as abbreviations of the month’s name.
 ## Comments
 Use #... to write a comment in a line.
+```R
+# This will not affect my code
+```
