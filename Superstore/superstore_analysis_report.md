@@ -89,5 +89,5 @@ The first question I had regarding the data was about the products that were bei
 - Which product categories are returned most frequently?
 - Which product sub-categories are returned most frequently? 
 
-To begin this analysis, I needed a list of the products which have been returned. To do so, I gathered the Excel data on the products and returns for each order, and filtered out the data that was not returned. I then deleted the *Returned* column, so I had a list of each product that was returned. Next to this list, I included a list ofeach product purchased in all orders. I then used a [Jupyter Notebook]() to analyze the data.
+To begin this analysis, I needed a list of the products which have been returned. To do so, I gathered the Excel data on the products and returns for each order, and filtered out the data that was not returned. I then deleted the *Returned* column, so I had a list of each product that was returned. Next to this list, I included a list of each product purchased in all orders. I then used a [Jupyter Notebook]() to analyze the data.
 ## Visualizing the Data
