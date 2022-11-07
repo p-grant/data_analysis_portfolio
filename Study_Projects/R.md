@@ -115,9 +115,9 @@ Written as:
 if (condition) {
   expression1
 } else if (condition) {
-	expression2
+  expression2
 } else {
-	expression3
+  expression3
 }
 ```
 ## Logic
