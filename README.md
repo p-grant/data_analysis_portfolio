@@ -16,6 +16,7 @@ I have documented the cumulative material learned from my study projects in thes
 - [Data Analysis Process](Study_Projects/data_analysis_process.md)
 - [Microsoft Excel](Study_Projects/Microsoft_Excel.md)
 - [SQL](Study_Projects/SQL.md)
+- [R](Study_Projects/R.md)
 ## Certificates
 ### Google Data Analytics Professional Certificate
 [This Certificate](https://www.coursera.org/account/accomplishments/professional-cert/2MVH7V5QJUWG) has strengthened my analytical skills and improved my knowledge of technical tools such as Excel, SQL, Tableau and R.
