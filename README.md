@@ -11,6 +11,21 @@ To begin exploring data analysis, I decided to analyze a dataset that describes 
 [Analysis Report](Superstore/superstore_analysis_report.md)
 ## Study Projects
 ### Video Lessons
+#### Completed
+#### To-Be Completed
+- [SQL Tutorial - Full Database Course for Beginners](https://www.youtube.com/watch?v=HXV3zeQKqGY&list=PL06t8bAhqibUwRY0Wx8TJ3MfKa5K1KBnP&index=2&t=9913s)
+- [MySQL - The Basics // Learn SQL in 23 Easy Steps](https://www.youtube.com/watch?v=Cz3WcZLRaWc&list=PL06t8bAhqibUwRY0Wx8TJ3MfKa5K1KBnP&index=4)
+- [Statistics - A Full University Course on Data Science Basics](https://www.youtube.com/watch?v=xxpc-HPKN28&list=PL06t8bAhqibUwRY0Wx8TJ3MfKa5K1KBnP&index=5)
+- [Maths for Programmers Tutorial - Full Course on Sets and Logic](https://www.youtube.com/watch?v=2SpuBqvNjHI&list=PL06t8bAhqibUwRY0Wx8TJ3MfKa5K1KBnP&index=6)
+- [Python for Data Science - Course for Beginners (Learn Python, Pandas, NumPy, Matplotlib)](https://www.youtube.com/watch?v=LHBE6Q9XlzI&list=PL06t8bAhqibUwRY0Wx8TJ3MfKa5K1KBnP&index=7)
+- [Data Analysis with Python Course - Numpy, Pandas, Data Visualization](https://www.youtube.com/watch?v=GPVsHOlRBBI&list=PL06t8bAhqibUwRY0Wx8TJ3MfKa5K1KBnP&index=8)
+- [R Programming Tutorial - Learn the Basics of Statistical Computing](https://www.youtube.com/watch?v=_V8eKsto3Ug&list=PL06t8bAhqibUwRY0Wx8TJ3MfKa5K1KBnP&index=10)
+- [Tableau for Data Science and Data Visualization - Crash Course Tutorial](https://www.youtube.com/watch?v=TPMlZxRRaBQ&list=PL06t8bAhqibUwRY0Wx8TJ3MfKa5K1KBnP&index=11)
+- [Data Analysis with Python for Excel Users - Full Course](https://www.youtube.com/watch?v=WcDaZ67TVRo&list=PL06t8bAhqibUwRY0Wx8TJ3MfKa5K1KBnP&index=14)
+- [Learn Data Science Tutorial - Full Course for Beginners](https://www.youtube.com/watch?v=ua-CiDNNj30&list=PL06t8bAhqibUwRY0Wx8TJ3MfKa5K1KBnP&index=15)
+- [Database Design Course - Learn how to design and plan a database for beginners](https://www.youtube.com/watch?v=ztHopE5Wnpc&list=PL06t8bAhqibUwRY0Wx8TJ3MfKa5K1KBnP&index=18)
+- [Intermediate Python Programming Course](https://www.youtube.com/watch?v=HGOBQPFzWKo&list=PL06t8bAhqibUwRY0Wx8TJ3MfKa5K1KBnP&index=21)
+- [VLOOKUP in Excel | Tutorial for Beginners](https://www.youtube.com/watch?v=DZEPA9UhLBw&list=PL06t8bAhqibUwRY0Wx8TJ3MfKa5K1KBnP&index=26)
 ### Notes
 I have documented the cumulative material learned from my study projects in these files:
 - [Data Analysis Process](Study_Projects/data_analysis_process.md)
