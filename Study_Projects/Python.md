@@ -299,6 +299,38 @@ We cannot sort tuples, but we can sort lists of tuples, such as those created us
 ```Python
 sorted(dictionary.items(),Reversed=True/False)
 ```
+## Classes
+We can define all possible objects under a class by listing the characteristics and behaviors they can have.
+
+An instance is one particular object that belongs to a class. The attributes of an instance are its state.
+
+An object’s abilities are referred to as its methods. They are called using:
+```Python
+object.method_name()
+```
+Define a class using:
+```Python
+class class_name:
+```
+Construct an object which belongs to a class using:
+```Python
+object = class_name()
+```
+Constructors and Destructors: Optional functions defined inside of a class:
+```Python
+def __init__(self):
+  # some operation
+def __del__(self):
+  # some operation
+```
+These functions are called when an instance of a class is created or destroyed.
+
+Subclasses are more specialized versions of a class which inherit attributes and methods from parent classes.
+
+Define a subclass using: 
+```Python
+class subclass_name(class_name):
+```
 ## Variables
 Constants are fixed values such as numbers, letters, or strings. Their values do not change.
 
