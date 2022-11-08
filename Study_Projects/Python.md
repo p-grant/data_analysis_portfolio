@@ -209,6 +209,96 @@ To make a copy of a list, use:
 new_list = list.copy()
 ```
 The copy method also works for dictionaries and sets. 
+### Sets
+Sets are similar to lists, but they are unordered.
+
+Create a set using:
+```Python
+{value1, value2, …}
+```
+To add a value to a set, use:
+```Python
+set_name.add(value)
+```
+To add multiple values to a set, use:
+```Python
+set_name.update({value1,value2,…})
+```
+To remove a value from a set, use:
+```Python
+set_name.remove(value)
+```
+The in and not in keywords can be used to check if a value exists within a set.
+
+Set Comprehenrions work similarly to list comprehensions. For example, to create a set of the squared values from another set use:
+```Python
+{x**2 for x in set}
+```
+### Dictionaries
+Dictionaries are "bags" of values each having their own label.
+
+We index values in a dictionary using a “lookup tag”. Refer to a single value in a dictionary using:
+```Python
+dict_name[‘key’]
+```
+To access the value connected to a key, use the get function:
+```Python
+dict_name.get(‘key’, value_returned_if _key_does_not_exist)
+```
+Creating a dictionary:
+```Python
+dict_name = dict()
+```
+Add a key and value pair to a dictionary using:
+```Python
+dict_name[‘key1’] = value1
+```
+Use the in operator to see if a key exists in a dictionary:
+```Python
+‘key’ in dict_name
+```
+The update method works the same for dictionaries as it does for sets:
+```Python
+dict_name.update({‘key1’:value1,…})
+```
+#### Printing Dictionaries
+Printing a dictionary will show each key and value combination in the dictionary:
+```Python
+print(dict_name)
+# Result: {'key1':value1,'key2':value2,...}
+```
+To print only the keys, use:
+```Python
+print(dict_name.keys())
+```
+To print only the values, use:
+```Python
+print(dict_name.values())
+```
+#### Items Function
+The items function will return the key and value combinations in separate tuples:
+```Python
+print(dict_name.items())
+# Result: [('key1',value1),...]
+```
+We can use this to get two iteration variables during definite loops:
+```Python
+for key,value in dict_name.items():
+  do this to the key and value
+```
+### Tuples
+Tuples are similar to lists, but they are immutable (cannot be changed).
+
+Create a tuple using:
+```Python
+(value1,value2,…)
+```
+The copy method does not work for tuples, but you may equate a variable to	another tuple. This variable may still not be changed.
+
+We cannot sort tuples, but we can sort lists of tuples, such as those created using the items function on a dictionary:
+```Python
+sorted(dictionary.items(),Reversed=True/False)
+```
 ## Variables
 Constants are fixed values such as numbers, letters, or strings. Their values do not change.
 
