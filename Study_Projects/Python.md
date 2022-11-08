@@ -147,6 +147,68 @@ We can convert a value into a string using the str function:
 ```Python
 str(value)
 ```
+### Lists
+Lists are constants separated by commas and surrounded by square brackets:
+```Python
+variable = [0,"hello",2,3.5]
+```
+We can concatenate and split lists just like strings.
+
+We can check if a value is in or is not in a string using the in and not in operators, just like with strings.
+
+Lists are mutable, so we can change them using the index operator:
+```Python
+list[index] = a_value_or_list
+```
+Values in lists are indexed in the same way we index values in strings.
+
+List Comprehensions: We can perform a calculation that affects each value in a list.
+
+For example, to square every number in a list, use:
+```Python
+[i**2 for i in list]
+```
+Several functions take lists as parameters: max, min, sum, len.
+
+If instead of making a copy, you equate two lists, any change made to one list will affect the other:
+```Python
+h1 = [1,2,3]
+h2 = h1
+h2[0] = 2
+# Result: h1 = [2,2,3]
+```
+### List Functions and Methods
+We can create an empty list using the list function:
+```Python
+variable = list()
+```
+To remove every value from a list, use the clear method:
+```Python
+list.clear()
+```
+We can add a value to the end of a list using the append function:
+```Python
+list.append(value)
+```
+To remove and return a value from a list use the pop method:
+```Python
+list.pop(index)
+```
+If no index is provided, the default value will be the last in the list.
+
+We can sort a string by using the sort function:
+```Python
+list.sort()
+```
+To reverse a list, use the reverse method:
+```Python
+list.reverse()
+```
+To make a copy of a list, use:
+```Python
+new_list = list.copy()
+```
+The copy method also works for dictionaries and sets. 
 ## Variables
 Constants are fixed values such as numbers, letters, or strings. Their values do not change.
 
@@ -165,3 +227,15 @@ To see each variable stored in the memory, use:
 %whos
 ```
 If you run a calculation without assigning the value to a variable, the value is automatically assigned to the variable “_”.
+
+## Functions
+The range function returns a list of numbers ranging from zero to one less than the parameter:
+```Python
+range(value)
+```
+This is useful when using for loops.
+
+To create an object using the range function, use:
+```Python
+list(range(values))
+```
