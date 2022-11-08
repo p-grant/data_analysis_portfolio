@@ -177,7 +177,7 @@ h2 = h1
 h2[0] = 2
 # Result: h1 = [2,2,3]
 ```
-### List Functions and Methods
+#### List Functions and Methods
 We can create an empty list using the list function:
 ```Python
 variable = list()
