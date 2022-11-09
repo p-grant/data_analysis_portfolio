@@ -449,7 +449,45 @@ for variable in set_name:
 	do this to variable
 ```
 We can include an else statement after a for loop to execute if the for loop executes in its entirety without reaching a break statement.
+## Try/Except
+Use the try/except structure to prevent dangerous pieces of code from breaking the program:
+```Python
+try:
+	try to do this
+except:
+	if the first try resulted in an error, do this and continue
+```
 ## Functions
+Functions take arguments and perform operations on them to return an output. Can be built-in or user designed.
+
+Call functions using:
+```Python
+function_name(value1,value2, …)
+```
+or by defining each parameter:
+```Python
+function_name(parameter1 = value1, parameter2 = value2,...)
+```
+Using the second method allows you to rearrange the order in which arguments are defined when calling a function.
+### Built-In Functions
+Statistical Functions include:
+- Min
+- Max
+
+The round function rounds a value to a certain number of decimal places:
+```Python
+round(value, number_of_decimal_places)
+```
+The divmod function outputs the quotient and the remainder in a tuple:
+```Python
+divmod(value1,value2)
+```
+The pow function raises the first argument to the power of the second	argument. If a third argument is included, the computed value will then be divided by the third argument, and the remainder will be output:
+```Python
+pow(value1,value2,value3)
+```
+The third value is optional.
+
 The range function returns a list of numbers ranging from zero to one less than the parameter:
 ```Python
 range(value)
@@ -465,3 +503,91 @@ Take input from users using:
 input(‘Input Prompt’)
 ```
 This function always returns a string.
+
+To find the documentation of a function, type the function, followed by a	question mark:
+```Python
+function_name?
+```
+The help function achieves the same purpose:
+```Python
+help(function_name)
+```
+### Custom Functions
+User-Created functions must be defined before they are called.
+
+Defined using:
+```Python
+def function_name(parameter1, parameter2,...):
+	do this
+	return something
+```
+To allow a function to accept any number of arguments, use:
+```Python
+def function_name(*arg_name):
+	for j in range(arg_name):
+		do this
+```
+To accept any number of arguments while assigning specific key names to each argument, use:
+```Python
+def function_name(**arg_name):
+```
+Then, call this function using:
+```Python
+function_name(arg1 = value1, arg2 = value2, …)
+```
+To define a default value for an argument, which will be used if an argument is	not given when a function is called, use:
+```Python
+def function_name(default_value_name = default_value)
+```
+#### Modules
+Instead of copying and pasting functions from one python file to another, we can use functions that are saved on a module. 
+
+Modules are python files that contain specific functions that we plan to use in more than one python file.
+
+Modules must be imported into each python file where you want to use it.
+
+Import a module using:
+```Python
+import sys
+sys.path.append(‘C:/MODULE FOLDER/’)
+import module_name as new_name
+```
+Renaming the file is optional.
+
+You can now use the functions in the module:
+```Python
+module_name.function_name(arguments)
+```
+Instead of importing the whole module, you can also import specific functions:
+```Python
+from module_name import function_name
+```
+## Importing Data
+Base Python can be used to read csv and text files.
+
+Open a file with:
+```Python
+with open(‘file_name.csv/txt’, ‘r’) as new_file_name:
+```
+Read each line using:
+```Python
+with open(‘file_name.csv/txt’, ‘r’) as new_file_name:
+for index, line in enumerate(new_file_name.readlines()):
+```
+Each line in the file is given an index number, starting with 0.
+
+The contents of each line are stored in a string, line.
+### csv module
+If the CSV file uses a character other than commas as the delimiter, we will use the csv module:
+```Python
+import csv
+with open(‘file_name.csv/txt’, ‘r’) as new_file_name:
+reader = csv.reader(new_file_name, delimiter = “delimiter”)
+next(reader)	# Skips the Header. This is only necessary if one exists
+for index, values in enumerate(reader):
+if not values:
+continue	# Skips empty lines
+# The data for each line is stored in values.
+# We can get each delimited part of values using:
+part1, part2, … = values
+```
