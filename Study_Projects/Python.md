@@ -12,6 +12,14 @@ not affect my code
 """
 ```
 ## Data Types
+The isinstance function returns True if the first argument is an instance of a certain class (or datatype such as int, float, etc.), or multiple classes:
+```Python
+isinstance(value,(class1,class2,...))
+```
+Use the type function to check the datatype of a variable:
+```Python
+type(variable)
+```
 ### Strings
 Strings are sequences of characters within single or double quotation marks.
 
@@ -331,9 +339,24 @@ Define a subclass using:
 ```Python
 class subclass_name(class_name):
 ```
-## Variables
+## Constants
 Constants are fixed values such as numbers, letters, or strings. Their values do not change.
 
+“None” type is a constant and indicates “emptiness” and is used as a flag.
+
+Defining a complex number:
+```Python
+variable = 4 + 5j
+```
+Booleans Values: True and False.
+
+Use the int, float, and str functions to convert values from one datatype to another:
+```Python
+int(value)
+float(value)
+str(value)
+```
+## Variables
 Variables are named places where we store data. Their values can change throughout a program.
 
 Assign data to a variable using:
@@ -348,8 +371,84 @@ To see each variable stored in the memory, use:
 ```Python
 %whos
 ```
+Delete an object or variable using:
+```Python
+del variable
+```
 If you run a calculation without assigning the value to a variable, the value is automatically assigned to the variable “_”.
 
+Show all of the functions we can use to transform a variable using:
+```Python
+dir(variable)
+```
+## Operators
+Operators: 
+- +
+- -
+- /
+- *
+- **
+- %
+
+Comparison Operators: 
+- <
+- <=
+- ==
+- >
+- >=
+- !=
+
+Boolean Operators: 
+- not
+- and
+- or
+- in
+- is
+- ==
+- !=
+
+0 == 0.0 is True. 0 is 0.0 is False. Use *is* when checking for Boolean and None types.
+
+Use *and* and *or* to make more complex boolean operations.
+
+The not function is used to reverse the outcome of a boolean operation:
+```Python
+x = True
+y = not(x)
+# Result: y = False
+```
+## Conditional Steps
+Conditional steps are lines of code that only run if a specific condition or group of conditions is met.
+
+Defined using if, elif and else statements:
+```Python
+if x < 10:
+  do this
+elif x > 20:
+	do this
+else:
+	do this
+```
+If the code reaches a *pass* statement, the code will simply continue. It is used in place of	future or missing code sections.
+## Repeated Steps
+Repeated steps have iteration variables that change throughout each loop, and keep running while a condition is True.
+
+For example, this code will run until n is equal to 10:
+```Python
+while n < 10:
+	do this
+	n = n + 1
+```
+If a loop contains a *break* statement and the code reaches this statement, the code willvjump to the code immediately following the loop.
+
+If the code reaches a *continue* statement in a loop, it will jump to the next iteration.
+## Definite Loops
+Definite loops run the loop for each of the items in a set:
+```Python
+for variable in set_name:
+		do this to variable
+```
+We can include an else statement after a for loop to execute if the for loop executes in its entirety without reaching a break statement.
 ## Functions
 The range function returns a list of numbers ranging from zero to one less than the parameter:
 ```Python
@@ -361,3 +460,8 @@ To create an object using the range function, use:
 ```Python
 list(range(values))
 ```
+Take input from users using:
+```Python
+input(‘Input Prompt’)
+```
+This function always returns a string.
