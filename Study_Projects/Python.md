@@ -383,20 +383,20 @@ dir(variable)
 ```
 ## Operators
 Operators: 
-- +
-- -
-- /
-- *
-- **
-- %
+- '+'
+- '-'
+- '/'
+- '*'
+- '**'
+- '%'
 
 Comparison Operators: 
-- <
-- <=
-- ==
-- >
-- >=
-- !=
+- '<'
+- '<='
+- '=='
+- '>'
+- '>='
+- '!='
 
 Boolean Operators: 
 - not
@@ -446,7 +446,7 @@ If the code reaches a *continue* statement in a loop, it will jump to the next i
 Definite loops run the loop for each of the items in a set:
 ```Python
 for variable in set_name:
-		do this to variable
+	do this to variable
 ```
 We can include an else statement after a for loop to execute if the for loop executes in its entirety without reaching a break statement.
 ## Functions
