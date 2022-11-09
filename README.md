@@ -48,6 +48,7 @@ I have documented the cumulative material learned from my study projects in thes
 - [R](Study_Projects/R.md)
 - [Tableau](Study_Projects/Tableau.md)
 - [Python](Study_Projects/Python.md)
+- [Numpy](Study_Projects/Numpy.md)
 
 
 
