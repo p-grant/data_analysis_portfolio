@@ -42,7 +42,7 @@ plt.colorbar()
 ## Other Plots
 Create a histogram using:
 ```Python
-plt.hist(list_of_values, bins=number_of_bars, histtype=’bar’,			color=’desired_bar_color’, edgecolor=’desired_bar_edge_color’)
+plt.hist(list_of_values, bins=number_of_bars, histtype=’bar’, color=’desired_bar_color’, edgecolor=’desired_bar_edge_color’)
 ```
 Create a bar plot using:
 ```Python
