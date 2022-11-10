@@ -47,10 +47,10 @@ I have documented the cumulative material learned from my study projects in thes
 - [SQL](Study_Projects/SQL.md)
 - [R](Study_Projects/R.md)
 - [Tableau](Study_Projects/Tableau.md)
-- [Python](Study_Projects/Python.md)
-- [Numpy](Study_Projects/Numpy.md)
-- [Pandas](Study_Projects/Pandas.md)
-- [Matplot](Study_Projects/Matplot.md)
+- [Python](Study_Projects/Python/Python.md)
+- [Numpy](Study_Projects/Python/Numpy.md)
+- [Pandas](Study_Projects/Python/Pandas.md)
+- [Matplot](Study_Projects/Python/Matplot.md)
 
 
 
