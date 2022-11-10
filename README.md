@@ -50,6 +50,7 @@ I have documented the cumulative material learned from my study projects in thes
 - [Python](Study_Projects/Python.md)
 - [Numpy](Study_Projects/Numpy.md)
 - [Pandas](Study_Projects/Pandas.md)
+- [Matplot](Study_Projects/Matplot.md)
 
 
 
