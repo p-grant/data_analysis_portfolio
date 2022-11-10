@@ -6,7 +6,7 @@ Hello, I'm Paul! I am a recent graduate of St. Lawrence University where I studi
 This is a collection of my data analysis and study projects that I have completed so far.
 
 ## Case Studies
-### Superstore Analysis
+### Superstore Analysis (In Progress)
 To begin exploring data analysis, I decided to analyze a dataset that describes the orders made from an imaginary superstore. 
 [Analysis Report](Superstore/superstore_analysis_report.md)
 ## Certificates
