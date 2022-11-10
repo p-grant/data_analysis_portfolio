@@ -179,6 +179,10 @@ To transpose a data frame, use:
 ```Python
 variable.T
 ```
+To convert data into a long format, use the pd.melt method:
+```Python
+pd.melt(data_frame, id_vars = [‘columns_to_organize_by’], value_vars = [‘columns_that_are_organized’], var_name = ‘new_variable_names’, value_name = ‘new_value_names’)
+```
 To convert date type data to datetime data, use the to_datetime method:
 ```Python
 pd.to_datetime(data_frame[‘column’])
@@ -190,6 +194,65 @@ yyyy-mm-dd
 The reset_index method resets the index of a data frame:
 ```Python
 df.reset_index()
+```
+To see each unique value that belongs to a column in a data frame, we can use the unique method:
+```Python
+data_frame[‘column’].unique()
+```
+The value_counts method does the same, but also returns the number of rows containing each unique value:
+```Python
+data_frame[‘column’].value_counts()
+```
+The duplicated and drop_duplicated methods work the same for data frames as for series. To check for duplicates in a specific column of a data frame, use the subset argument:
+```Python
+data_frame.duplicated(subset=['column’])
+```
+Without this argument, the duplicated and drop_duplicates methods will check for rows that contain the same values for each column as the rows above.
+#### Working with String Data
+To work with a column in a data frame that contains string values, use:
+```Python
+data_frame[‘column’].str...
+```
+To return the string data split by a character, use:
+```Python
+.str.split(‘character’, expand=True/False)
+```
+If expand is True, a new data frame will be created with each segment of	the strings in a new column. Otherwise, a series is returned.
+
+To check if each string contains a certain substring, use:
+```Python
+.str.contains(‘substring’)
+```
+If the string contains the substring, True will be returned.
+
+To remove blank space from strings, use:
+```Python
+.str.strip()
+```
+lstrip and rstrip also work.
+
+To replace a substring that might exist in each string, use:
+```Python
+.str.replace(‘substring’,’replacement substring’)
+```
+#### Replacing Values
+Use the replace method to replace values in a data frame’s column with another:
+```Python
+data_frame[‘column’].replace(value_to_remove, replacement_value)
+```
+You can perform multiple replacements at once using:
+```Python
+.replace({value1: replacement_value1, value2: replacement_value2,		etc.})
+```
+To make replacements in multiple columns, use:
+```Python
+data_frame.replace({‘column1’: {value1: rep_value1, value2:			rep_value2}, ‘column2’: {value3: rep_value3, etc.}})
+```
+Making more complicated replacements (values over a certain number, etc.) will	involve filtering the data frame, and then equating the filtered portion of the	data frame to a calculation involving the filtered data frame.
+
+To make replacements if a value meets a condition, use the loc method:
+```Python
+data_frame.loc[data_frame[‘column’] == 1, [‘column_to_update’]] = new_value
 ```
 #### Grouping by Columns
 The groupby method is used to get summary of data related to specific values found in a	column:
@@ -205,7 +268,6 @@ To group by several columns, use:
 data_frame.groupby([‘column1’,’column2’])…
 ```
 Each combination of the two columns will be shown.
-
 #### Filtering Data Frames
 We can filter the data in a data frame. For example, we can filter the data to only see data where the grade is less than 90:
 ```Python
