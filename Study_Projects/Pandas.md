@@ -246,7 +246,7 @@ You can perform multiple replacements at once using:
 ```
 To make replacements in multiple columns, use:
 ```Python
-data_frame.replace({‘column1’: {value1: rep_value1, value2:			rep_value2}, ‘column2’: {value3: rep_value3, etc.}})
+data_frame.replace({‘column1’: {value1: rep_value1, value2:rep_value2}, ‘column2’: {value3: rep_value3, etc.}})
 ```
 Making more complicated replacements (values over a certain number, etc.) will	involve filtering the data frame, and then equating the filtered portion of the	data frame to a calculation involving the filtered data frame.
 
