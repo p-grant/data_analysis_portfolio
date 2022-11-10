@@ -1,5 +1,61 @@
-# Data Science
-This is a collection of general notes regarding data analysis that I have collected during the entirety of my study projects.
+# Data Science Notes
+This is a collection of general notes regarding data science and analysis that I have collected during the entirety of my study projects.
+## Data Science
+Data science can be defined as a combination of three things:
+- Coding and Programming Skills
+- Statistics and other Mathematics
+- Domain Knowledge Regarding a Particular Field
+### Coding
+Coding helps you gather and prepare the data. 
+
+Types of Coding:
+- Statistical (R and Python)
+- Database Querying (SQL)
+- Command Line (Bash)
+- Searching (Regex)
+
+### Math
+Math helps you choose the appropriate procedures to work with the data. It also helps you diagnose problems with the data.
+
+Types of Math in Data Science:
+- Probability
+- Algebra
+- Regression
+
+### Domain Expertise
+Expertise in a particular field means someone knows about the goals, methods and constraints of that field. 
+### Data Science Steps
+There are four major steps in data science:
+1. Planning
+2. Data Prep
+3. Modeling
+4. Follow Up
+
+The planning stage involves defining goals, organizing resources, coordinating people involved, and scheduling the project.
+
+The data prep stage involves getting the data ready, cleaning the data, exploring the data and refining the data.
+
+The modeling stage involves creating the statistical model, validating the model, evaluating the model, and refining the model.
+
+The follow up stage involves presenting the model, deploying the model, revisiting the model, and archiving the assets.
+### Roles in Data Science
+Data science relies on the interactions between individuals who have varying goals and skills.
+
+Engineers work on the back end hardware and software. They make data science possible. They include:
+- Software Developers
+- Database Administrators (DBA)
+
+Big data specialists focus on computer science and math. They may use machine learning algorithms as a way of processing very large data. They often create data products.
+
+Researchers focus on domain specific research and have very strong statistical knowledge. They use data from others to answer specific questions.
+
+Analysts focus on the day-to-day tasks of running the business. They may use web analytics or pull data from databases. Their work is useful for business, but they usually don't fall under the proper data science umbrella, as most of their data is already structured.
+
+Business people organize and run the business by framing business relevant questions. They manage projects and must "speak" data.
+
+Entrepeneurs include individuals like data startups. They require data and business skills as well as creativity. 
+
+Full-stack "Unicorns" are able to perform in each role at an expert level. 
 ## Data Analysis
 Data analysis is the collection, transformation, and organization of data in order to draw conclusions, make predictions, and drive informed decision-making.
 
