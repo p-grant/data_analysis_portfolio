@@ -5,7 +5,7 @@ Data science can be defined as a combination of three things:
 - Coding and Programming Skills
 - Statistics and other Mathematics
 - Domain Knowledge Regarding a Particular Field
-## Coding
+### Coding
 Coding helps you gather and prepare the data. 
 
 Types of Coding:
@@ -14,7 +14,7 @@ Types of Coding:
 - Command Line (Bash)
 - Searching (Regex)
 
-## Math
+### Math
 Math helps you choose the appropriate procedures to work with the data. It also helps you diagnose problems with the data.
 
 Types of Math in Data Science:
@@ -22,7 +22,7 @@ Types of Math in Data Science:
 - Algebra
 - Regression
 
-## Domain Expertise
+### Domain Expertise
 Expertise in a particular field means someone knows about the goals, methods and constraints of that field. 
 
 ## Data Science Steps
