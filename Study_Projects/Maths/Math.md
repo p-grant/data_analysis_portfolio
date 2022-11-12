@@ -21,7 +21,7 @@ In linear algebra (also known as matrix algebra), there are certain terms we nee
 
 An example of a linear algebra equation is shown below:
 
-$$\matrix{y_1 \cr y_2}$$
+$$\lbrack\matrix{y_1 \cr y_2}\rbrack$$
 ## Calculus
 ## Big Order
 ## Probability
