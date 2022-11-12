@@ -41,7 +41,8 @@ This certificate will enhance my ability to use Python to collect, clean, transf
 ##### Data Science
 - [Learn Data Science Tutorial - Full Course for Beginners](https://www.youtube.com/watch?v=ua-CiDNNj30&list=PL06t8bAhqibUwRY0Wx8TJ3MfKa5K1KBnP&index=15)
 ### Notes
-I have documented the cumulative material learned from my study projects in these files:
+I have documented the cumulative material learned from my study projects in [this folder](Study_Projects):
+
 - [Data Science](Study_Projects/Data_Science.md)
 - [Microsoft Excel](Study_Projects/Microsoft_Excel.md)
 - [SQL](Study_Projects/SQL.md)
