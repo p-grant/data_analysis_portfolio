@@ -105,6 +105,8 @@ Methods of collecting data:
 - Forms
 - Surveys
 - Cookies
+- APIs
+- Web Scraping
 
 Population: All possible data values in a certain data set.
 - Sample: Part of a population that is representative of the population.
@@ -269,4 +271,9 @@ Growth per Year = Current Year – Previous Year
 % Growth per Year = Growth per Year / Previous Year
 
 Profit Margin: A percentage that indicates how many cents of profit have been generated for each dollar of sale.
+### Business Intelligence
+Business Intelligence (BI) is data on internal operations, the market, competitors, etc. Its goal is to make justifiable decisions.
 
+There is often less coding in BI, and more simple statistics than other kinds of data science.
+
+Its focus is one expertise and direct utility.
