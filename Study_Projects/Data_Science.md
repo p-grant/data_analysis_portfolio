@@ -172,15 +172,33 @@ Having multiple goals is difficult because:
 - Goals may conflict.
 - There is a need to optimize.
 
-### Classification Tables
+### Accuracy
+Classification tables help us to determine the accuracy of our results.
 
+There are three information columns. The first two describe whether an event occured or not, and the third is a total of all the events.
+
+There are three rows. The first two describe whether or not our test tells us that an event is or is not occuring. The third is a total of all the tests.
 |   |Event Present|Event Absent|Total|
 |---|---|---|---|
 |Test Positive|True Positives|False Positives|Total Positives|
 |Test Negative|False Negatives|True Negatives|Total Negatives|
 |   |Total Present|Total Absent|Total|
 
+These tables give us four ways of quantifying accuracy:
+- Sensitivity
+  - "If there is a fire, does the alarm ring?"
+  - True Positives / Total Present
+- Specificity
+  - "If there isn't a fire, does the alarm stay quiet?"
+  - True Negatives / Total  Absent
+- Positive Predictive Value (PPV)
+  - "If the alarm rings, was there a fire?"
+  - True Positives / Total Positives
+- Negative Predicitve Value (NPV)
+  - "If the alarm does not ring, is there no fire?"
+  - True Negatives / Total Negatives
 
+Our goal is to maximize all four kinds of accuracy.
 ## Business
 A business task is the question or problem data analysis answers for business.
 
