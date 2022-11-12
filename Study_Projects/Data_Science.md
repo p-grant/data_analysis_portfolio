@@ -134,6 +134,52 @@ Information typically provided:
 Metadata Repository: A database specifically created to store metadata.
 
 Data Governance: A process to ensure the formal management of a company’s data assets.
+## Data Sourcing
+In order to perform data science, we first need data to work with. To determine what data we need, we need to define our goal. 
+
+### Metrics
+Metrics are different ways of measuring. There are several different kinds of metrics:
+- Business Metrics
+- Key Performance Indicators (KPIs)
+- SMART Goals
+- Multiple Goals
+
+Common business metrics include:
+- Sales Revenue
+- Leads Generated (New Customers)
+- Customer Value
+- Churn Rate (Customer Retention)
+
+KPIs are:
+- Non-Financial
+- Timely
+- CEO Focus
+- Simple
+- Team-Based
+- Significant Impact
+- Limited Dark Side (Preventing Exploitations of the System)
+
+SMART goals are:
+- Specific
+- Measurable
+- Assignable
+- Realistic
+- Time-bound
+
+Having multiple goals is difficult because:
+- It is easy to focus on only one goal.
+- It is hard to focus on many goals simultaneously.
+- Goals may conflict.
+- There is a need to optimize.
+
+### Classification Tables
+
+|   |Event Present|Event Absent|Total|
+|---|---|---|---|
+|Test Positive|True Positives|False Positives|Total Positives|
+|Test Negative|False Negatives|True Negatives|Total Negatives|
+|   |Total Present|Total Absent|Total|
+
 
 ## Business
 A business task is the question or problem data analysis answers for business.
@@ -202,13 +248,6 @@ Six Steps:
 - Analyze
 - Share
 - Act
-
-Effective questions follow the SMART methodology: 
-- Specific
-- Measurable
-- Action-Oriented
-- Relevant
-- Time-Bound
 
 When answering questions for a client:
 - State the Question
