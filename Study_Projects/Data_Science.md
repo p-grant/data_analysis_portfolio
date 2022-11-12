@@ -87,7 +87,7 @@ Quantitative Data:
 - Discrete: Counted and has a limited number of possible values.
 - Continuous: Measured and can have almost any numeric value.
 
-Data can be internal or external, structured or unstructured, and wide or long.
+Data can be internal (proprietary) or external (public/purchased), structured or unstructured, and wide or long.
 
 Good data sources are Reliable, Original, Comprehensive, Current, and Cited (ROCCC).
 
@@ -202,6 +202,10 @@ Our goal is to maximize all four kinds of accuracy.
 ## Business
 A business task is the question or problem data analysis answers for business.
 
+A business model is a description of the way a business conducts their business and makes money.
+
+An organization's business model is tied to its identity or reason to be.
+### Business Metrics
 ROI, or Return on Investment is essentially a formula designed using metrics that let a business know how well an investment is doing.
 - Made up of two metrics, the net profit over a period of time and the cost of investment.
 
