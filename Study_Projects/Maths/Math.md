@@ -7,11 +7,10 @@ There are three kinds of algebra:
 
 In elementary algebra, you have one or multiple variables that will affect the equation. An example is shown below:
 
-$$y = {A+B*X+C*X \pm E}$$
+$$y_i = {B_0+B_1*X_1i+B_2*X_2i+B_3*X_3i \pm E_i}$$
 
 where E is the error in our calculation.
 
-$$B_2$$
 ## Calculus
 ## Big Order
 ## Probability
