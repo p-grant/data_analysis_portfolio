@@ -469,6 +469,12 @@ or by defining each parameter:
 function_name(parameter1 = value1, parameter2 = value2,...)
 ```
 Using the second method allows you to rearrange the order in which arguments are defined when calling a function.
+
+To apply a function to each value in an iterable, use:
+```Python
+variable = map(function_name, iterable_variable)
+```
+
 ### Built-In Functions
 Statistical Functions include:
 - Min
