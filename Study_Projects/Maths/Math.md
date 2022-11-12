@@ -9,7 +9,7 @@ In elementary algebra, you have one or multiple variables that will affect the e
 
 $$y_i = {B_0+B_1X_{1i}+B_2X_{2i}+B_3X_{3i} \pm E_i}$$
 
-where E is the error in our calculation.
+where E_i is the error in our calculation.
 
 ## Calculus
 ## Big Order
