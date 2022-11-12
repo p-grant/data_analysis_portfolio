@@ -81,6 +81,7 @@ Methods of collecting data:
 - Cookies
 - APIs
 - Web Scraping
+  - Data is stored on the Web using XML or JSON. We can convert between these and CSV using certain websites.
 
 Population: All possible data values in a certain data set.
 - Sample: Part of a population that is representative of the population.
@@ -365,4 +366,3 @@ Data Composition: Combining the individual parts of a visualization and displayi
 JASP is a free alternative to SPSS.
 
 It provides standard statistical procedures in both their traditional and Bayesian manifestations.
-
