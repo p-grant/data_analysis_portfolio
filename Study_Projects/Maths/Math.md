@@ -11,7 +11,7 @@ $$y = {A+B*X+C*X \pm E}$$
 
 where E is the error in our calculation.
 
-$$B^^2$$
+$$B^2$$
 ## Calculus
 ## Big Order
 ## Probability
