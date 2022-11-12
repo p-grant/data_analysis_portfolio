@@ -1,11 +1,11 @@
 # Data Science Notes
 This is a collection of general notes regarding data science and analysis that I have collected during the entirety of my study projects.
-## Data Science
+
 Data science can be defined as a combination of three things:
 - Coding and Programming Skills
 - Statistics and other Mathematics
 - Domain Knowledge Regarding a Particular Field
-### Coding
+## Coding
 Coding helps you gather and prepare the data. 
 
 Types of Coding:
@@ -14,7 +14,7 @@ Types of Coding:
 - Command Line (Bash)
 - Searching (Regex)
 
-### Math
+## Math
 Math helps you choose the appropriate procedures to work with the data. It also helps you diagnose problems with the data.
 
 Types of Math in Data Science:
@@ -22,9 +22,10 @@ Types of Math in Data Science:
 - Algebra
 - Regression
 
-### Domain Expertise
+## Domain Expertise
 Expertise in a particular field means someone knows about the goals, methods and constraints of that field. 
-### Data Science Steps
+
+## Data Science Steps
 There are four major steps in data science:
 1. Planning
 2. Data Prep
@@ -38,7 +39,7 @@ The data prep stage involves getting the data ready, cleaning the data, explorin
 The modeling stage involves creating the statistical model, validating the model, evaluating the model, and refining the model.
 
 The follow up stage involves presenting the model, deploying the model, revisiting the model, and archiving the assets.
-### Roles in Data Science
+## Roles in Data Science
 Data science relies on the interactions between individuals who have varying goals and skills.
 
 Engineers work on the back end hardware and software. They make data science possible. They include:
@@ -56,48 +57,7 @@ Business people organize and run the business by framing business relevant quest
 Entrepeneurs include individuals like data startups. They require data and business skills as well as creativity. 
 
 Full-stack "Unicorns" are able to perform in each role at an expert level. 
-## Data Analysis
-Data analysis is the collection, transformation, and organization of data in order to draw conclusions, make predictions, and drive informed decision-making.
-
-Key analytical skills: 
-- Curiosity
-- Understanding Context
-- Having a Technical Mindset
-- Data Design
-- Data Strategy
-
-Key analytical-thinking skills:
-- Visualization
-- Strategy
-- Problem-Orientation
-- Correlation
-- Big-Picture/ Detail-Oriented Thinking.
-
-Data life cycle: 
-- Plan
-- Capture
-- Manage
-- Analyze
-- Archive
-- Destroy.
-
-As a data analyst, you want to help create systems that are fair and inclusive to everyone. It is important to analyze data for bias and credibility.
-- Sampling Bias: When a sample isn't representative of the population as a whole.
-- Observer Bias: The tendency for people to observe things differently. 
-- Interpretation Bias: The tendency to always interpret ambiguous situations in a positive, or negative way.
-- Confirmation Bias: The tendency to search for, or interpret information in a way that confirms preexisting beliefs.
-
-Structured thinking is the process of recognizing the current problem or situation, organizing available information, revealing gaps and opportunities, and identifying the options.
-
-Six common types of problems: 
-- Making Predictions
-- Categorizing Things
-- Spotting Something Unusual
-- Identifying Themes
-- Discovering Connections
-- Finding patterns
-
-### Data 
+## Data 
 Methods of collecting data: 
 - Interviews
 - Observations
@@ -138,7 +98,7 @@ Open-source Data Sources:
 - [Google Cloud Public Datasets](https://cloud.google.com/datasets)
 - [Google Dataset Search](https://datasetsearch.research.google.com/)
 
-#### Data Ethics
+### Data Ethics
 Individuals own the raw data they provide, and they have primary control over its usage, how it's processed and how it's shared.
 
 Transaction Transparency: The idea that all data processing activities and algorithms should be completely explainable and understood by the individual who provides their data.
@@ -157,7 +117,7 @@ Personally identifiable information, or PII, is information that can be used by 
 
 De-identification: A process used to wipe data clean of all personally identifying information.
 
-#### Metadata
+### Metadata
 Metadata: Tells you where the data comes from, when and how it was created, and what it's all about.
 Several Types:
 - Descriptive: Describes a piece of data and can be used to identify it at a later point in time.
@@ -174,6 +134,65 @@ Information typically provided:
 Metadata Repository: A database specifically created to store metadata.
 
 Data Governance: A process to ensure the formal management of a company’s data assets.
+
+## Business
+A business task is the question or problem data analysis answers for business.
+
+ROI, or Return on Investment is essentially a formula designed using metrics that let a business know how well an investment is doing.
+- Made up of two metrics, the net profit over a period of time and the cost of investment.
+
+Growth per Year = Current Year – Previous Year
+
+% Growth per Year = Growth per Year / Previous Year
+
+Profit Margin: A percentage that indicates how many cents of profit have been generated for each dollar of sale.
+### Business Intelligence
+Business Intelligence (BI) is data on internal operations, the market, competitors, etc. Its goal is to make justifiable decisions.
+
+There is often less coding in BI, and more simple statistics than other kinds of data science.
+
+Its focus is one expertise and direct utility.
+
+## Data Analysis
+Data analysis is the collection, transformation, and organization of data in order to draw conclusions, make predictions, and drive informed decision-making.
+
+Key analytical skills: 
+- Curiosity
+- Understanding Context
+- Having a Technical Mindset
+- Data Design
+- Data Strategy
+
+Key analytical-thinking skills:
+- Visualization
+- Strategy
+- Problem-Orientation
+- Correlation
+- Big-Picture/ Detail-Oriented Thinking.
+
+Data life cycle: 
+- Plan
+- Capture
+- Manage
+- Analyze
+- Archive
+- Destroy.
+
+As a data analyst, you want to help create systems that are fair and inclusive to everyone. It is important to analyze data for bias and credibility.
+- Sampling Bias: When a sample isn't representative of the population as a whole.
+- Observer Bias: The tendency for people to observe things differently. 
+- Interpretation Bias: The tendency to always interpret ambiguous situations in a positive, or negative way.
+- Confirmation Bias: The tendency to search for, or interpret information in a way that confirms preexisting beliefs.
+
+Structured thinking is the process of recognizing the current problem or situation, organizing available information, revealing gaps and opportunities, and identifying the options.
+
+Six common types of problems: 
+- Making Predictions
+- Categorizing Things
+- Spotting Something Unusual
+- Identifying Themes
+- Discovering Connections
+- Finding patterns
 
 ### Data Analysis Process
 Six Steps: 
@@ -260,20 +279,4 @@ Making data more accessible:
 
 Data Composition: Combining the individual parts of a visualization and displaying them together as a whole.
 
-## Business
-A business task is the question or problem data analysis answers for business.
 
-ROI, or Return on Investment is essentially a formula designed using metrics that let a business know how well an investment is doing.
-- Made up of two metrics, the net profit over a period of time and the cost of investment.
-
-Growth per Year = Current Year – Previous Year
-
-% Growth per Year = Growth per Year / Previous Year
-
-Profit Margin: A percentage that indicates how many cents of profit have been generated for each dollar of sale.
-### Business Intelligence
-Business Intelligence (BI) is data on internal operations, the market, competitors, etc. Its goal is to make justifiable decisions.
-
-There is often less coding in BI, and more simple statistics than other kinds of data science.
-
-Its focus is one expertise and direct utility.
