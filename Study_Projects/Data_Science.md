@@ -64,6 +64,20 @@ Methods of collecting data:
 - Questionnaires
 - Forms
 - Surveys
+- Card Sorting
+  - Investigating how people organize information intuitively.
+  - Can be generative or evaluative.
+    - Generative: People create their own sets using any number of groupings.
+    - Evaluative: Fixed number of names or categories.
+  - Procedure:
+    - Write topics on cards.
+    - Have people sort the cards.
+    - Calculate dissimilarity data using a resulting [dendrogram](https://online.visual-paradigm.com/diagrams/templates/dendrogram/cluster-dendrogram/).
+- Experiments
+  - Laboratory: In-person projects where you shape information or an experience.
+    - Used to determine cause and effect.
+    - Hypothesis Driven.
+  - A/B Testing: Automated, online testing of two or more variations on a webpage.
 - Cookies
 - APIs
 - Web Scraping
