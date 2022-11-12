@@ -14,6 +14,14 @@ $$y_i = {B_0+B_1X_{1i}+B_2X_{2i}+B_3X_{3i} \pm E_i}$$
 - The *i*s in the equation represent which observation we are working with (person, location, product, etc.).
 - The *X* values represent each observation's value for that variable (score, price, etc.).
 
+In linear algebra (also known as matrix algebra), there are certain terms we need to know:
+- Scalar: One number.
+- Vector: One row or column of numbers that can be treated as a collection. Can be thought of as a variable.
+- Matrix: Many rows and columns organized in a two-dimensional shape.
+
+An example of a linear algebra equation is shown below:
+
+$$\matrix{y_1 \cr y_2}$$
 ## Calculus
 ## Big Order
 ## Probability
