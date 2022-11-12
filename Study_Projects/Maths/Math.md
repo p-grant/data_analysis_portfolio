@@ -7,7 +7,7 @@ There are three kinds of algebra:
 
 In elementary algebra, you have one or multiple variables that will affect the equation. An example is shown below:
 
-$$y_i = {B_0+B_1*X_1_i+B_2*X_2_i+B_3*X_3_i \pm E_i}$$
+$$y_i = {B_0+B_1*X_{1i}+B_2*X_{2i}+B_3*X_{3i} \pm E_i}$$
 
 where E is the error in our calculation.
 
