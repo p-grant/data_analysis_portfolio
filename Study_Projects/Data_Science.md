@@ -361,4 +361,8 @@ Making data more accessible:
 
 Data Composition: Combining the individual parts of a visualization and displaying them together as a whole.
 
+### JASP
+JASP is a free alternative to SPSS.
+
+It provides standard statistical procedures in both their traditional and Bayesian manifestations.
 
