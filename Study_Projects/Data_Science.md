@@ -215,6 +215,7 @@ When answering questions for a client:
 - Give your Answer
 - Qualify as Needed
 - Go in Order
+- Discuss Process Sparingly
 
 Data Aggregation: The process of gathering data from multiple sources in order to combine it 	into a single summarized collection.
 
