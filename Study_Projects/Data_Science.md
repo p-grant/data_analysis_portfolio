@@ -210,6 +210,12 @@ Effective questions follow the SMART methodology:
 - Relevant
 - Time-Bound
 
+When answering questions for a client:
+- State the Question
+- Give your Answer
+- Qualify as Needed
+- Go in Order
+
 Data Aggregation: The process of gathering data from multiple sources in order to combine it 	into a single summarized collection.
 
 Data Transformation: The process of changing the data’s format, structure, or values.
