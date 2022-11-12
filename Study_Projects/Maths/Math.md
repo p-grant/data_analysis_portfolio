@@ -36,6 +36,8 @@ $$\left\lbrack\matrix{y_1 \cr y_2}\right\rbrack = \left\lbrack\matrix{B_0 + X_{1
 Next, we add the error matrix:
 
 $$\left\lbrack\matrix{y_1 \cr y_2}\right\rbrack = \left\lbrack\matrix{B_0 + X_{11}*B_1 + X_{21}*B_2 + X_{31}*B_3 + E_1 \cr B_0 + X_{12}*B_1 + X_{22}*B_2 + X_{32}*B_3 + E_2}\right\rbrack$$
+
+Now, *y_1* is equal to the 
 ## Calculus
 ## Big Order
 ## Probability
