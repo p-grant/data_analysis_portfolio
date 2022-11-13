@@ -95,3 +95,15 @@ Robust statisitcs are stable estimates. They are less affected by outliers, skew
 For example, we can calculate the trimmed and winsorized means for the boxplot shown below:
 
 ![boxplot_for_means](https://user-images.githubusercontent.com/114603848/201523495-2d1f5bff-3c05-4dec-86d7-294471b076e6.png)
+
+The values calculated for both kinds of mean are shown below:
+
+|Data Changed|Trimmed Mean|Winsorized Mean|
+|---|---|---|
+|0%|1.24|1.24|
+|5%|1.14|1.19|
+|10%|1.10|1.16|
+|25%|1.03|1.07|
+|50%|1.01|1.01|
+
+When we change or remove 50% of the greatest and least outying data, the only value remaining is the median.
