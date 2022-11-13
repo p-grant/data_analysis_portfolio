@@ -119,7 +119,7 @@ There are several versions of resampling:
 
 Transforming dataset involves using "smooth" functions on complicated data. It preserves the order of the data and allows you to work on the full dataset. You can fix skewed data and curved lines using this method.
 
-Tukey's Ladder of Powers:
+Tukey's Ladder of Powers: Affecting the values ina dataset will affect the distribution  of the data.
 
 |Power|Example|
 |---|---|
@@ -131,3 +131,7 @@ Tukey's Ladder of Powers:
 |-1/2|$-1/\sqrt{x}$|
 |-2|$-1/x$|
 |-3|$-1/x^2$|
+
+If we perform one of the example operations shown above, the data will be affected as shown below, where the original distribution is shown at $x$:
+
+![tukeys_ladder_of_powers](https://user-images.githubusercontent.com/114603848/201524421-6c88e259-d857-48e6-a2f8-6dcc3b59b2ec.png)
