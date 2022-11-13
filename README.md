@@ -19,6 +19,8 @@ This certificate will enhance my ability to use Python to collect, clean, transf
 ## Study Projects
 ### Video Lessons
 #### Completed
+##### Data Science
+- [Learn Data Science Tutorial - Full Course for Beginners](https://www.youtube.com/watch?v=ua-CiDNNj30&list=PL06t8bAhqibUwRY0Wx8TJ3MfKa5K1KBnP&index=15)
 #### To-Be Completed
 ##### SQL
 - [SQL Tutorial - Full Database Course for Beginners](https://www.youtube.com/watch?v=HXV3zeQKqGY&list=PL06t8bAhqibUwRY0Wx8TJ3MfKa5K1KBnP&index=2&t=9913s)
@@ -39,6 +41,6 @@ This certificate will enhance my ability to use Python to collect, clean, transf
 ##### Excel
 - [VLOOKUP in Excel | Tutorial for Beginners](https://www.youtube.com/watch?v=DZEPA9UhLBw&list=PL06t8bAhqibUwRY0Wx8TJ3MfKa5K1KBnP&index=26)
 ##### Data Science
-- [Learn Data Science Tutorial - Full Course for Beginners](https://www.youtube.com/watch?v=ua-CiDNNj30&list=PL06t8bAhqibUwRY0Wx8TJ3MfKa5K1KBnP&index=15)
+
 ### Notes
 I have documented the cumulative material learned from my study projects in [this folder](Study_Projects).
