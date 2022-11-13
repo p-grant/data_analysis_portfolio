@@ -91,6 +91,36 @@ To find the rate at which y is changing at any x value, we need to find the deri
 $$y' = 2x$$
 
 Using these procedures, we can optimize decisions. In other words, calculus makes it possible to find values that maximize or minimize outcomes.
+
+At maximum and minimum values, the derivative will be equal to zero, so we can use this in to find the value we can have for a variable to reach this maximum or minimum.
 ## Big Order
+Functions vary in speed. The growth rate in duration of a function is its "order".
+
+Big Order (Big O) gives the rate at which things grow as the number of elements grows.
+
+Below, I have listed several different function orders. As the list goes down, the growth rate of the function's time to finish per element increases:
+- O(1) is a constant order
+- O(log(n)) is a logarithmic order
+- O(n) is a linear order
+- O(n log(n)) is a loglinear order
+- O(n^2) is a quadratic order
+- O(2^n) is an exponential order
+- O(n!) is a factorial order
+
 ## Probability
+Businesses often need to determine the odds of something occuring.
+
+Probability Principles:
+- Probabilities range from 0 to 1
+- P(A) = Probability of A
+- $P(S) = 1$
+  - This is the "probability space"
+- $P(~A) = 1-P(A)$
+
+### Conditional Probabilites:
+P(A|B) is the Probability of A if B is True.
+
+This is important when determining the probabilities of Type I & II errors in hypothesis testing.
+### Adding Probabilities
+Adding probabilities is not done using: $P(A or B) = P(A) + P(B)$.
 ## Bayes Theorem
