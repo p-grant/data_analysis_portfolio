@@ -157,7 +157,11 @@ Steps:
     - Interquartile Range (IQR): $IQR = Q3 - Q1$ where Q3 is the third quartile score (75%) and Q1 is the first quartile score (25%).
     - The quartiles are calculated using:
       - $Q1 = 1/4(n+1)^{th}term$
+      - $Q2 = 1/2(n+1)^{th}term$
+      - $Q3 = 3/4(n+1)^{th}term$
   - Variance and Standard Deviation
     - The variance is the average squared deviation from the mean.
     - $Var = sum(X-M)^2/N$ where M is the mean.
+    - The standard deviation is the square root of the variance:
+      - $SD = \sqrt{Var}$
 - Describe the shape of the distribution
