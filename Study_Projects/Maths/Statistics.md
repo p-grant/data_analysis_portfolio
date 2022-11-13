@@ -151,4 +151,13 @@ Steps:
     - $Mean = sum(X)/N$ where X is all of the values in the dataset and N is the number of datapoints
     - Least intuitive of the three. It is the most affected by outliers. However, it is still the most useful, statistically.
 - Describe the spread or dispursion of the data
+  - Range
+    - $Range = Max - Min$
+  - Percentiles and Interquartile Range
+    - Interquartile Range (IQR): $IQR = Q3 - Q1$ where Q3 is the third quartile score (75%) and Q1 is the first quartile score (25%).
+    - The quartiles are calculated using:
+      - $Q1 = 1/4(n+1)^{th}term$
+  - Variance and Standard Deviation
+    - The variance is the average squared deviation from the mean.
+    - $Var = sum(X-M)^2/N$ where M is the mean.
 - Describe the shape of the distribution
