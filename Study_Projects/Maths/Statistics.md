@@ -98,7 +98,7 @@ For example, we can calculate the trimmed and winsorized means for the boxplot s
 
 The values calculated for both kinds of mean are shown below:
 
-|Data Changed|Trimmed Mean|Winsorized Mean|
+|Data Changed/Removed|Trimmed Mean|Winsorized Mean|
 |---|---|---|
 |0%|1.24|1.24|
 |5%|1.14|1.19|
