@@ -133,4 +133,3 @@ We can multiply for probabilities to get joint probabilities, or the probability
 Multiplying probabilities is done using: $P(AandB) = P(A) * P(B|A)$. 
 
 However, if A and B are independent (one is no more likely to occur of the other occurs), then we can use: $P(AandB) = P(A) * P(B)$.
-## Bayes Theorem
