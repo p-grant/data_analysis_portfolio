@@ -25,7 +25,7 @@ $$\left\lbrack\matrix{y_1 \cr y_2}\right\rbrack = \left\lbrack\matrix{1 & X_{11}
 
 In the matrix with the *X*s, the top row contains the variables for observation 1 and the bottom row contains the variables for observation 2.
 
-Here, the *B*s in the vertical matrix are the regression coefficients.
+Here, the *B*s in the vertical vector are the regression coefficients.
 
 To find our *y* values, we first multiply our variable matrix by our regression coefficients:
 
@@ -33,7 +33,7 @@ $$\left\lbrack\matrix{y_1 \cr y_2}\right\rbrack = \left\lbrack\matrix{B_0 & X_{1
 
 $$\left\lbrack\matrix{y_1 \cr y_2}\right\rbrack = \left\lbrack\matrix{B_0 + X_{11}*B_1 + X_{21}*B_2 + X_{31}*B_3 \cr B_0 + X_{12}*B_1 + X_{22}*B_2 + X_{32}*B_3}\right\rbrack + \left\lbrack\matrix{E_1 \cr E_2}\right\rbrack$$
 
-Next, we add the error matrix:
+Next, we add the error vector:
 
 $$\left\lbrack\matrix{y_1 \cr y_2}\right\rbrack = \left\lbrack\matrix{B_0 + X_{11}*B_1 + X_{21}*B_2 + X_{31}*B_3 + E_1 \cr B_0 + X_{12}*B_1 + X_{22}*B_2 + X_{32}*B_3 + E_2}\right\rbrack$$
 
