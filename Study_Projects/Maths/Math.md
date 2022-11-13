@@ -45,7 +45,21 @@ Instead of writing out the entire matrices, we can use matrix notation, where th
 
 $$Y = XB + E$$
 
+When we have many unknowns and we need to solve for all of them simultaneously, it becomes difficult, especially if the unknown variables depend on each other.
 
+This is where systems of linear equations become handy.
+
+For example, consider this scenario:
+- We sold 1000 products
+- Some sold for $20 while others sold for $5
+- We made $5900
+- How many did we sell at each price?
+
+We can create the following equations to represent this situation:
+$$Sales$$
+$$x+y=1000$$
+$$Revenue$$
+$$20x+5y=5900$$
 ## Calculus
 ## Big Order
 ## Probability
