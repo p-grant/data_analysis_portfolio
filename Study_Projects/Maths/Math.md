@@ -64,7 +64,7 @@ Next, we can isolate x in the sales equation:
 $$x = 1000-y$$
 
 Then, we can substitute x in the revenue equation with this value:
-$$20*(1000-y)+5y=5900
+$$20*(1000-y)+5y=5900$$
 ## Calculus
 ## Big Order
 ## Probability
