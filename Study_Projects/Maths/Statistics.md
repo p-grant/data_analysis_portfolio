@@ -88,9 +88,11 @@ Used to transform and manipulate the data, take empirical estimates, use more ro
 
 You are still exploring the data, you are not yet creating models.
 
-Robust statisitcs are stable estimates. They are less affected by outliers, skewness, jurtosis,etc:
-- Trimmed Mean: Remove a certain percentage of the data away from the greatest and least outlying data. Calculate the mean of the remaining data.
-- Winsorized Mean: Move the most outlying data points to values closer to the general collection of data points, and then calculate the mean.
+Robust statisitcs are stable estimates. They are less affected by outliers, skewness, jurtosis,etc.
+
+Trimmed Mean: Remove a certain percentage of the data away from the greatest and least outlying data. Calculate the mean of the remaining data.
+
+Winsorized Mean: Move the most outlying data points to values closer to the general collection of data points, and then calculate the mean.
 
 For example, we can calculate the trimmed and winsorized means for the boxplot shown below:
 
@@ -107,3 +109,23 @@ The values calculated for both kinds of mean are shown below:
 |50%|1.01|1.01|
 
 When we change or remove 50% of the greatest and least outying data, the only value remaining is the median.
+
+Resampling is the act of performing the same analysis on different sample groups of the same population. It gives an empirical estimate of sampling variability. Important to the process of cross-validation.
+
+There are several versions of resampling:
+- Jackknife
+- Bootstrap
+- Permutation
+
+Transforming dataset involves using "smooth" functions on complicated data. It preserves the order of the data and allows you to work on the full dataset. You can fix skewed data and curved lines using this method.
+
+Tukey's Ladder of Powers:
+
+|3|$x^3$|
+|2|$x^2$|
+|1|$x$|
+|1/2|$\sqrt{x}$|
+|0|$ln(x)$|
+|-1/2|$-1/\sqrt{x}$|
+|-2|$-1/x$|
+|-3|$-1/x^2$|
