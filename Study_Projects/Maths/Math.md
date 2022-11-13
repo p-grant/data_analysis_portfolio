@@ -89,6 +89,8 @@ For example, we can consider this equation:
 $$y = x^2$$
 To find the rate at which y is changing at any x value, we need to find the derivative of $x^2$. Therefore, our equation becomes:
 $$y' = 2x$$
+
+Using these procedures, we can optimize decisions. In other words, calculus makes it possible to find values that maximize or minimize outcomes.
 ## Big Order
 ## Probability
 ## Bayes Theorem
