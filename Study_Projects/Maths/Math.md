@@ -58,6 +58,13 @@ For example, consider this scenario:
 We can create the following equations to represent this situation:
 $$Sales: x+y=1000$$
 $$Revenue: 20x+5y=5900$$
+where x is the number of products sold at $20 and y is the number of products sold at $5.
+
+Next, we can isolate x in the sales equation:
+$$x = 1000-y$$
+
+Then, we can substitute x in the revenue equation with this value:
+$$20*(1000-y)+5y=5900
 ## Calculus
 ## Big Order
 ## Probability
