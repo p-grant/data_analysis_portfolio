@@ -123,4 +123,14 @@ P(A|B) is the Probability of A if B is True.
 This is important when determining the probabilities of Type I & II errors in hypothesis testing.
 ### Adding Probabilities
 Adding probabilities is not done using: $P(A or B) = P(A) + P(B)$.
+
+Instead, it is done using: $P(AorB) = P(A) + P(B) - P(A&B)$, because we are not looking for cases where A and B occur simultaneously. 
+
+However, if the two cases cannot exist simultaneously, then $P(A&B) = 0$, and we can use the previous equation.
+### Multiplying Probabilities
+We can multiply for probabilities to get joint probabilities, or the probability that multiple things occur simultaneously.
+
+Multiplying probabilities is done using: $P(A&B) = P(A) * P(B|A)$. 
+
+However, if A and B are independent (one is no more likely to occur of the other occurs), then we can use: $P(A&B) = P(A) * P(B)$.
 ## Bayes Theorem
