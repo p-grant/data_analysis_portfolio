@@ -93,4 +93,5 @@ Robust statisitcs are stable estimates. They are less affected by outliers, skew
 - Winsorized Mean: Move the most outlying data points to values closer to the general collection of data points, and then calculate the mean.
 
 For example, we can calculate the trimmed and winsorized means for the boxplot shown below:
+
 ![boxplot_for_means](https://user-images.githubusercontent.com/114603848/201523495-2d1f5bff-3c05-4dec-86d7-294471b076e6.png)
