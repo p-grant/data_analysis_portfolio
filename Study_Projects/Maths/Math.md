@@ -67,7 +67,24 @@ $$x = 1000-y$$
 
 Then, we can substitute x in the revenue equation with this value:
 $$20*(1000-y)+5y=5900$$
+After simplifying this equation, we find that:
+$$y = 940$$
+Therefore, we sold 940 units at $5. By plugging this value back into our sales equation for y, we find that:
+$$x = 60$$
+Therefore, we sold 60 units at $20.
+
+Alternatively, we could isolated y in both equations and plotted both lines. This would have shown us that the lines interest at x = 60, y= 940 (60,940).
 ## Calculus
+Calculus is the basis of many of the procedures in data science, including Least Squares Regression and Probability Distributions.
+
+Calculus is useful for measuring quantities or rates that change over time and for finding the maximum and minimum of functions in optimizing.
+
+There are two kinds of calculus:
+- Differential: Rates of change at a specific time. AKA "the calculus of change"
+- Integral: Quantity at a specific time given a rate of change. AKA "the calculus of accumulation"
+
+In differential calculus, we can find the derivative, or rate of change (slope of a line) at any point using:
+$$f'(X^n) = nX^{n-1)$$
 ## Big Order
 ## Probability
 ## Bayes Theorem
