@@ -43,7 +43,7 @@ Instead of writing out the entire matrices, we can use matrix notation, where th
 
 $$**Y** = **X** **B** + **E**$$
 
-$$Y = XB + E$$
+
 ## Calculus
 ## Big Order
 ## Probability
