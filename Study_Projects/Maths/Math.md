@@ -19,6 +19,8 @@ In linear algebra (also known as matrix algebra), there are certain terms we nee
 - Vector: One row or column of numbers that can be treated as a collection. Can be thought of as a variable.
 - Matrix: Many rows and columns organized in a two-dimensional shape.
 
+Computers are able to work with matrices easily, so linear algebra is important.
+
 An example of a linear algebra equation is shown below:
 
 $$\left\lbrack\matrix{y_1 \cr y_2}\right\rbrack = \left\lbrack\matrix{1 & X_{11} & X_{21} & X_{31} \cr 1 & X_{12} & X_{22} & X_{32}}\right\rbrack\left\lbrack\matrix{B_0 \cr B_1 \cr B_2 \cr B_3}\right\rbrack + \left\lbrack\matrix{E_1 \cr E_2}\right\rbrack$$
