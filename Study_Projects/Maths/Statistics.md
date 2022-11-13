@@ -27,7 +27,7 @@ There  are two kinds of exploration:
   - Try variations of data and methods.
   - Second step.
 
-## Graphical Exploration
+### Graphical Exploration
 Gives you a "feel" of the data. Allows you to check assumptions and anomolies, and to get suggestions for your analysis.
 
 This exploration should be performed first, because:
@@ -81,7 +81,7 @@ Plots for analyzing multiple variables (multivariate distributions):
   - Many quantitative variables
   - Can use markers for groups
   - Clearer than 3D
-## Numerical (Statistical) Exploration
+### Numerical (Statistical) Exploration
 Performed after the graphical method of exploration.
 
 Used to transform and manipulate the data, take empirical estimates, use more robust methods, and check the sensitivity of the results.
@@ -137,3 +137,15 @@ If we perform one of the example operations shown above, the data will be affect
 ![tukeys_ladder_of_powers](https://user-images.githubusercontent.com/114603848/201524421-6c88e259-d857-48e6-a2f8-6dcc3b59b2ec.png)
 
 By performing these operations, we can "undo"  the skewness of the data.
+
+### Descriptive Statistics
+We are trying to tell a story with the data, and this is easier if we can use fewer, more descriptive statistics that tell us about our about.
+
+Steps:
+- Describe the center of the distribution
+  - Mode: The most commonly occuring value in the data.
+  - Median: The value at the very center of all the datapoints.
+  - Mean: the average value of the data.
+    - $Mean = sum(X)/N$ where X is all of the values in the dataset and N is the number of datapoints
+- Describe the spread or dispursion of the data
+- Describe the shape of the distribution
