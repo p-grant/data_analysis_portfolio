@@ -294,3 +294,30 @@ Newer Solutions:
   - Gets very complicated and unreasonable with many variables
 - Relative Importance Weights
   - Create sets of orthogonal predictors, then back-transform
+
+### Model Validation
+While you are performing your analysis, are you 'on target"?
+
+Your model might fit the sample data beautifully, but will it work well with other data?
+
+This is the problem of generalizability (AKA scalability).
+
+Two approaches toward generalizability:
+- Bayes
+  - Posterior Probabilities
+  - Instead of P(D|H), get P(H|D)
+- Replication
+  - Simply do the study again
+  - Exact vs. Conceptual Replications
+  - Combine Results
+    - Meta-Analysis or Bayesian Methods
+- Holdout Validation
+  - Model on one part of the data, test on another
+  - Need a large sample
+  - Used commonly in competitions
+- Cross Validation
+  - Same data for training and testing
+  - Leave-One-Out (LOO)
+  - Leave-p-Out (LpO)
+  - k-fold
+  - Repeated Random Sub-sampling
