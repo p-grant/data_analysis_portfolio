@@ -144,8 +144,11 @@ We are trying to tell a story with the data, and this is easier if we can use fe
 Steps:
 - Describe the center of the distribution
   - Mode: The most commonly occuring value in the data.
+    - May not be close to the appparent center of the data.
   - Median: The value at the very center of all the datapoints.
+    - Hard to use this information.
   - Mean: the average value of the data.
     - $Mean = sum(X)/N$ where X is all of the values in the dataset and N is the number of datapoints
+    - Least intuitive of the three. It is the most affected by outliers. However, it is still the most useful, statistically.
 - Describe the spread or dispursion of the data
 - Describe the shape of the distribution
