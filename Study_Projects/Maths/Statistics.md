@@ -138,7 +138,7 @@ If we perform one of the example operations shown above, the data will be affect
 
 By performing these operations, we can "undo"  the skewness of the data.
 
-### Descriptive Statistics
+## Descriptive Statistics
 We are trying to tell a story with the data, and this is easier if we can use fewer, more descriptive statistics that tell us about our about.
 
 Steps:
@@ -153,15 +153,69 @@ Steps:
 - Describe the spread or dispursion of the data
   - Range
     - $Range = Max - Min$
+    - Thrown off by outliers.
   - Percentiles and Interquartile Range
     - Interquartile Range (IQR): $IQR = Q3 - Q1$ where Q3 is the third quartile score (75%) and Q1 is the first quartile score (25%).
     - The quartiles are calculated using:
       - $Q1 = 1/4(n+1)^{th}term$
       - $Q2 = 1/2(n+1)^{th}term$
       - $Q3 = 3/4(n+1)^{th}term$
+    - Ignores extreme values on either end.
   - Variance and Standard Deviation
     - The variance is the average squared deviation from the mean.
     - $Var = sum(X-M)^2/N$ where M is the mean.
     - The standard deviation is the square root of the variance:
       - $SD = \sqrt{Var}$
+    - The formulas are slightly different for populations and samples, but give similar answers if the sample is reasonably large.
+    - Least intuitive, affected by outliers, but are also the most useful.
 - Describe the shape of the distribution
+  - Distribution can:
+    - Be Symetrical or Skewed
+      - Symetrical: Left and Right sides are (at least close to) identical.
+      - Skewed: Most of the scores are on one end.
+        - If most of the scores are toward the lower end and there are outliers toward the high end, it is positively skewed.
+    - Be Unimodal, Uniform or U Shaped
+      - Unimodal: There is only one mode or "hump" in the data.
+      - Bimodal: There are two "humps".
+      - Uniform: Every value is equally common.
+      - U Shaped: Values occur more commonly at the extreme ends of the data.
+    - Have Outliers
+
+## Inferential Statistics
+Hypothesis Testing allows you to test your theory. Common when a yes/no answer is needed.
+
+Your hypothesis will begin at $H_0$, the Null Hypothesis. This is the hypothesis where there is no systematic effect and random sampling error is the only explanation for any observed differences that are apparent.
+
+The alternative hypothesis, $H_A$, proposes that there is a systematic effect, and that there is a correlation between variables.
+
+We will remove outliers from the greatest and lowest values in our data, using a percent cutoff.
+
+After testing, you will either accept or reject your null hypothesis. It is rejected if there is evidence that the results are not entirely random.
+
+There can be errors: 
+- False Positive: Sample shows some effect, but it is truely due to randomness.
+  - To have a true false positive, you must first reject your null hypothesis.
+  - This is referred to as a Type I Error.
+  - You must pick a value to represent the risk of this result (5% is common).
+- False Negative: Sample seems to be random, but there is some systematic effect occuring.
+  - To have a true false negative, you must first accept your null hypothesis.
+  - This is referred to as a Type II Error.
+  - This value can be calculated.
+
+Problems with hypothesis testing:
+- It is easy to misinterpret.
+- We might assume that there is no systematic effect, when there is.
+- There might be bias in our cutoff.
+- We might not have answered the right question.
+
+Despite these problems, hypothesis testing can still be useful.
+
+Another element of inferential statistics is estimation. This is meant o give you a value to use that describes a parameter.
+
+We can estimate any sample statistic. There are different kinds of estimation:
+- Parametric
+- Bootstrap Methods
+
+We have certain confidence intervals in our estimations. These can be central or noncentral.
+
+We must first choose aconfidence interval (often 95%).
