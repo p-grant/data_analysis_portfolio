@@ -231,6 +231,7 @@ An example result is: "The 95% confidence interval for the mean is 5.8 to 7.2". 
 Higher confidence levels create wider intervals. Larger standard deviations create wider intervals. Larger sample sizes create narrower intervals.
 
 ## Choices
+### Estimators
 Estimators are different methods for estimating parameters. What kind of standard or "measuring stick" will you use?
 
 Ordinary Least Squares (OLS): Based on the sum of squared erros. Very common in data science. Characterized by Best Linear Unbiased Estimator (BLUE).
@@ -245,6 +246,7 @@ These three methods connect:
 - OLS is equivalent to ML with normally distributed errors. (OLS is a special case of ML)
 - ML is equivalent to MAP with a uniform prior distribution. (ML is a special case of MAP)
 
+### Measures of Fit
 The next choice we need to make is in regards to our measures of fit. There are several approaches:
 - $R^2$: Coefficient of Determination
   - AKA the squared multiple correlation
@@ -262,4 +264,33 @@ The next choice we need to make is in regards to our measures of fit. There are 
 - $\chi^2$: Chi-Square 
   - Used for examining the deviation of two datasets (specifically, the deviation between the observed and expected values)
 
+### Feature Selection
 The next choice that needs to be made is feature selection, or the choice of variables to include in the model.
+
+The goal of feature selection is to select the best features or variables, remove unimformative variables, and simplify the model and avoid overfitting.
+
+The biggest problem is multicollinearity: Describes the relationship between the predictors and the model.
+
+Common Solutions:
+- Probability Values (p-values)
+  - Simplest Method
+  - Look at p-values for each predictor
+  - AKA "Star Search"
+  - Problematic
+    - Inflates false positives
+- Standardized Coefficients (Betas)
+  - Puts all variables on the same scale
+  - Variables are still in the same context, however
+- Sequential Regression
+  - Enter variables in blocks
+  - Examine the change in fit at each step
+  - Risk of overfitting
+
+Newer Solutions:
+- Commonality Analysis
+  - Provides separate estimates for unique and shared contributions of each variable
+- Dominance Analysis
+  - Compares every possible subset of predictors
+  - Gets very complicated and unreasonable with many variables
+- Relative Importance Weights
+  - Create sets of orthogonal predictors, then back-transform
