@@ -85,6 +85,10 @@ There are two kinds of calculus:
 
 In differential calculus, we can find the derivative, or rate of change (slope of a line) at any point using:
 $$f'(x^n) = n{x^{n-1}}$$
+For example, we can consider this equation:
+$$y = x^2$$
+To find the rate at which y is changing at any x value, we need to find the derivative of $x^2$. Therefore, our equation becomes:
+$$y' = 2x$$
 ## Big Order
 ## Probability
 ## Bayes Theorem
