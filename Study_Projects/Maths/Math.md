@@ -41,7 +41,7 @@ Now, *y*<sub>1</sub> is equal to the top row of the matrix to the right and *y*<
 
 Instead of writing out the entire matrices, we can use matrix notation, where the matrices are denoted by cold characters:
 
-$$**Y** = **X** **B** + **E**$$
+$$Y = XB + E$$
 
 
 ## Calculus
