@@ -218,4 +218,48 @@ We can estimate any sample statistic. There are different kinds of estimation:
 
 We have certain confidence intervals in our estimations. These can be central or noncentral.
 
-We must first choose aconfidence interval (often 95%).
+We must first choose a confidence level (often 95%).
+
+There is a tradeoff between accuracy and precision:
+- Accuracy: Contains the true population value. 
+  - Leads to the correct inference.
+- Precision: Small range of likely values.
+  - Independent of accuracy.
+
+An example result is: "The 95% confidence interval for the mean is 5.8 to 7.2". The colloquial interpretation of this is: "There is a 95% chance that the population mean is between 5.8 and 7.2". However, this implies that the population mean shifts, which is not correct. A better interpretation is: "95% of confidence intervals for randomly selected samples will contain the population mean.
+
+Higher confidence levels create wider intervals. Larger standard deviations create wider intervals. Larger sample sizes create narrower intervals.
+
+## Choices
+Estimators are different methods for estimating parameters. What kind of standard or "measuring stick" will you use?
+
+Ordinary Least Squares (OLS): Based on the sum of squared erros. Very common in data science. Characterized by Best Linear Unbiased Estimator (BLUE).
+- By summing the square of the residuals, we can find the best possible regression line for a scatterplot.
+    - (Residual lines are vertical lines from each data point to the regression line of a scatter plot.)
+
+Maximum Likelihood (ML): We choose parameters that make observed data most likely. Based on a local search, it doesn't always find the best option.
+
+Maximum a Posteriori (MAP): A Bayesian approach to parameter estimation. Adds the prior distribution and then anchors and adjusts the parameter.
+
+These three methods connect:
+- OLS is equivalent to ML with normally distributed errors. (OLS is a special case of ML)
+- ML is equivalent to MAP with a uniform prior distribution. (ML is a special case of MAP)
+
+The next choice we need to make is in regards to our measures of fit. There are several approaches:
+- $R^2$: Coefficient of Determination
+  - AKA the squared multiple correlation
+  - Compares variance of Y to residuals on Y
+  - Ranges from 0 to 1 (higher is better)
+  - Adjusted $R^2$: Takes into consideration the number of variables
+- $-2LL$: Likelihood Ratio
+  - AKA the -2 log likelihood
+  - Compares the fit of nested models
+  - Used in logistic regression
+  - Smaller is better
+  - Akaike Information Criterion (AIC)
+  - Bayesian Information Criterion (BIC)
+  - Both the AIC and BIC adjust for the number of predictors
+- $\chi^2$: Chi-Square 
+  - Used for examining the deviation of two datasets (specifically, the deviation between the observed and expected values)
+
+The next choice that needs to be made is feature selection, or the choice of variables to include in the model.
