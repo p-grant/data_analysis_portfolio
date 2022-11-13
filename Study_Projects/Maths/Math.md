@@ -84,7 +84,7 @@ There are two kinds of calculus:
 - Integral: Quantity at a specific time given a rate of change. AKA "the calculus of accumulation"
 
 In differential calculus, we can find the derivative, or rate of change (slope of a line) at any point using:
-$$f'(X^n) = nX^{n-1)$$
+$$f(X^n) = nX^{n-1)$$
 ## Big Order
 ## Probability
 ## Bayes Theorem
