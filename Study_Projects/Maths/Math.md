@@ -56,10 +56,8 @@ For example, consider this scenario:
 - How many did we sell at each price?
 
 We can create the following equations to represent this situation:
-$$Sales$$
-$$x+y=1000$$
-$$Revenue$$
-$$20x+5y=5900$$
+$$Sales: x+y=1000$$
+$$Revenue: 20x+5y=5900$$
 ## Calculus
 ## Big Order
 ## Probability
