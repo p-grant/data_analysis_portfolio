@@ -121,6 +121,8 @@ Transforming dataset involves using "smooth" functions on complicated data. It p
 
 Tukey's Ladder of Powers:
 
+|Power|Example|
+|---|---|
 |3|$x^3$|
 |2|$x^2$|
 |1|$x$|
