@@ -1,0 +1,26 @@
+Order Date,Customer ID,City/State,Product ID,Category,Sub-Category,Sales,Quantity,Discount,Profit,Returned,Return Rates
+8/27/2014,ZD-21925,San Francisco/California,TEC-PH-10001949,Technology,Phones,213.48,3,0.2,16.01,Yes,100
+11/3/2016,NW-18400,Portland/Oregon,TEC-MA-10003337,Technology,Machines,179.99,3,0.7,-251.99,Yes,100
+6/12/2016,PO-19180,Chicago/Illinois,TEC-MA-10002937,Technology,Machines,1007.98,3,0.3,43.2,Yes,100
+10/10/2014,RB-19435,Columbus/Ohio,TEC-MA-10002694,Technology,Machines,101.99,2,0.7,-71.4,Yes,100
+10/6/2016,LB-16795,Pueblo/Colorado,TEC-MA-10001695,Technology,Machines,703.71,6,0.7,-938.28,Yes,100
+9/30/2017,CS-11845,Seattle/Washington,OFF-PA-10004039,Office Supplies,Paper,167.94,3,0,82.29,Yes,60
+10/27/2017,TW-21025,Mesa/Arizona,OFF-PA-10004039,Office Supplies,Paper,44.78,1,0.2,16.23,No,60
+1/14/2016,AG-10675,Concord/North Carolina,OFF-PA-10004039,Office Supplies,Paper,89.57,2,0.2,32.47,Yes,60
+11/10/2016,PP-18955,Springfield/Ohio,OFF-PA-10004039,Office Supplies,Paper,89.57,2,0.2,32.47,No,60
+11/11/2014,KN-16705,New Rochelle/New York,OFF-PA-10004039,Office Supplies,Paper,223.92,4,0,109.72,Yes,60
+5/26/2014,Dp-13240,Murray/Utah,OFF-PA-10002893,Office Supplies,Paper,48.4,5,0,23.23,No,60
+5/25/2016,JB-16045,Columbus/Georgia,OFF-PA-10002893,Office Supplies,Paper,19.36,2,0,9.29,Yes,60
+1/20/2014,MV-17485,Los Angeles/California,OFF-PA-10002893,Office Supplies,Paper,19.36,2,0,9.29,Yes,60
+1/23/2015,CW-11905,Bozeman/Montana,OFF-PA-10002893,Office Supplies,Paper,29.04,3,0,13.94,Yes,60
+12/8/2017,KH-16510,San Francisco/California,OFF-PA-10002893,Office Supplies,Paper,9.68,1,0,4.65,No,60
+1/23/2015,CW-11905,Bozeman/Montana,OFF-LA-10003077,Office Supplies,Labels,14.62,2,0,6.87,Yes,100
+10/30/2017,JK-15205,San Francisco/California,OFF-LA-10003077,Office Supplies,Labels,43.86,6,0,20.61,Yes,100
+11/20/2016,NZ-18565,Columbus/Ohio,OFF-FA-10002983,Office Supplies,Fasteners,19.1,7,0.2,6.68,No,66.67
+10/23/2016,AB-10255,Seattle/Washington,OFF-FA-10002983,Office Supplies,Fasteners,17.05,5,0,8.18,Yes,66.67
+8/26/2016,RF-19735,San Jose/California,OFF-FA-10002983,Office Supplies,Fasteners,10.23,3,0,4.91,Yes,66.67
+12/29/2017,BS-11755,Edmonds/Washington,OFF-FA-10000089,Office Supplies,Fasteners,19.6,5,0,9.6,Yes,100
+6/11/2015,BD-11605,Monroe/Louisiana,FUR-FU-10004666,Furniture,Furnishings,29.16,2,0,10.79,No,66.67
+10/5/2017,GG-14650,Chico/California,FUR-FU-10004666,Furniture,Furnishings,72.9,5,0,26.97,Yes,66.67
+7/26/2014,LF-17185,San Antonio/Texas,FUR-FU-10004666,Furniture,Furnishings,17.5,3,0.6,-10.06,Yes,66.67
+12/18/2017,RA-19915,Encinitas/California,FUR-BO-10002206,Furniture,Bookcases,119.83,1,0.15,-12.69,Yes,100
