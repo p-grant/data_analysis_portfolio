@@ -273,6 +273,10 @@ We can filter the data in a data frame. For example, we can filter the data to o
 ```Python
 data_frame[data_frame[‘grade’]<90]
 ```
+To  filter the data by several  values, use:
+```Python
+data_frame[data_frame['column'].isin(list)]
+```
 #### Missing Data in Data Frames
 If a series in a data frame does not contain a value for an index in the data frame, NaN will be insert into the data frame.
 
