@@ -12,19 +12,13 @@ The *Returns* sheet includes a list of Order ID numbers. There is not a descript
 Before I could begin analyzing the data, I needed to determine what questions I wanted to answer using the data. After reviewing the information provided by the data, I decided to answer these questions:
 1. Which kinds of products are returned most frequently?
 2. Do we make a larger profit on average from repeat customers, or from customers who place a single order? 
-3. Do repeat customers recieve more frequent and/or larger discounts than single order customers?
-4. Do we make a larger profit on orders containing a larger number of items?
-5. Do we make a larger profit off of our more expensive products?
-6. Which cities are many of our orders sent to? 
-7. What kinds of products are sent to which cities most frequently?
-8. Which cities do we make a largest profit from?
-9. Of the four regions, which makes the largest profit?
-10. Which product categories are the most profitable? 
-11. Which products within each category are the most profitable?
-12. Which products are ordered more frequently using discounts? 
-13. How large are the discounts on orders of certain products?
-14. Has the superstore seen more orders in recent years? 
-15. Has the superstore seen more profit?
+3. Do we make a larger profit on orders containing a larger number of items?
+4. Which cities are many of our orders sent to? 
+5. Which cities do we make a largest profit from?
+6. Of the four regions, which makes the largest profit?
+7. Which product categories are the most profitable? 
+8. Which products are ordered more frequently using discounts? 
+9. Has the superstore seen more orders and/or profit in recent years? 
 
 While there are many more questions that this data could be used to answer, I believe that answering these questions will provide valuable insight into areas where the company could improve or capitalize on certain situations. Along with answering these questions, I will look for other valuable insights that this data can provide.
 ## Preparing the Data
