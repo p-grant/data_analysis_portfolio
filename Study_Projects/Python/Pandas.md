@@ -130,7 +130,7 @@ del data_frame[‘column_name’]
 ```
 To delete multiple columns, use the drop method:
 ```Python
-data_frame.drop([‘column1’,’column2’,…],inplace = True/False)
+data_frame.drop([‘column1’,’column2’,…],axis = 1, inplace = True/False)
 ```
 If inplace is False, this will create a temporary variable and not make the changes directly to the data frame.
 
