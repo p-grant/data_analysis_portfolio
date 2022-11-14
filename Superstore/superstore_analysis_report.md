@@ -93,5 +93,5 @@ To begin this analysis, I needed a list of the products which have been returned
 
 The first result from this analysis was a list of the return rates for each product. This list contains the return data for all products that have been returned at least one time. Products that have never been returned are not included in this list, as we already know that their return rate is 0%. The data can be found [here](https://github.com/p-grant/data_analysis_portfolio/blob/main/Superstore/Superstore_Return_Rates.csv).
 
-There were eight products, shown below, with a return rate of 100%.
+Next, I collected the data regarding the products with return rates over 50%. This data can be found [here]().
 ## Visualizing the Data
