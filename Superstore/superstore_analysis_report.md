@@ -90,4 +90,6 @@ The first question I had regarding the data was about the products that were bei
 - Which product sub-categories are returned most frequently? 
 
 To begin this analysis, I needed a list of the products which have been returned. To do so, I gathered the Excel data on the products and returns for each order, and filtered out the data that was not returned. I then deleted the *Returned* column, so I had a list of each product that was returned. Next to this list, I included a list of each product purchased in all orders. I then used a [Jupyter Notebook]() to analyze the data.
+
+The first insight from this analysis was a list of the return rates for each product. This list contains the return data for all products that have been returned at least one time. Products that have never been returned are not included in this list, as we already know that their return rate is 0%. The data can be found [here[(.../Superstore/Superstore_Return_Rates.csv).
 ## Visualizing the Data
